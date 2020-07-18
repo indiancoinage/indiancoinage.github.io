@@ -1,0 +1,208 @@
+<Mughal>
+    <Introduction>
+        Technically, the Mughal period in India commenced in 1526 AD when Babur defeated Ibrahim Lodhi, the Sultan of Delhi and ended in 1857 AD when the British deposed and exiled Bahadur Shah Zafar, the last Mughal Emperor after the great uprising. The later emperors after Shah Alam II were little more than figureheads.
+
+        The most significant monetary contribution of the Mughals was to bring about uniformity and consolidation of the system of coinage throughout the Empire. The system lasted long after the Mughal Empire was effectively no more. The system of tri-metalism which came to characterise Mughal coinage was largely the creation, not of the Mughals but of Sher Shah Suri (1540 to 1545 AD), an Afghan, who ruled for a brief time in Delhi. Sher Shah issued a coin of silver which was termed the Rupiya. This weighed 178 grains and was the precursor of the modern rupee. It remained largely unchanged till the early 20thCentury. Together with the silver Rupiya were issued gold coins called the Mohur weighing 169 grains and copper coins called Dam.
+
+        Where coin designs and minting techniques were concerned, Mughal Coinage reflected originality and innovative skills. Mughal coin designs came to maturity during the reign of the Grand Mughal, Akbar. Innovations like ornamentation of the background of the die with floral scrollwork were introduced. Jehangir took a personal interest in his coinage. The surviving gigantic coins, are amongst the largest issued in the world. The Zodiacal signs, portraits and literary verses and the excellent calligraphy that came to characterise his coins took Mughal Coinage to new heights.
+    </Introduction>
+    <Coin>
+        <img1>MugPics\hu11.jpg</img1>
+        <img2>MugPics\hu12.jpg</img2>
+        <Theme>Humayun</Theme>
+        <Title>Bahloli - Humayun Agra mint</Title>
+        <Features>
+        	
+            <Count>	Mughal Empire</Count>
+            <Year>941-944 (1535-1538)</Year>
+            <Value>1/2 Dam (1/80)</Value>
+            <Currency>Rupee (1540-1842)</Currency>
+            <Composition>Copper</Composition>
+            <Weight>8.75 g</Weight>
+            <Diameter>15 mm</Diameter>
+            <Shape>Round</Shape>
+            <Orientation>-</Orientation>
+
+        </Features>
+        <Market>250 Rupees</Market>
+        <References>#hu1</References>
+        <Obverse>
+            Lettering:
+            Dar al-aman
+
+            ۹۴۲
+        </Obverse>
+        <Reverse>
+            -
+      </Reverse>
+        <Edge>
+           Plain
+        </Edge>
+    </Coin>
+
+    <Coin>
+        <img1>MugPics\hu21.jpg</img1>
+        <img2>MugPics\hu22.jpg</img2>
+        <Theme>None</Theme>
+        <Title>Bahloli - Humayun Agra mint</Title>
+        <Features>
+        	
+            <Count>	Mughal Empire</Count>
+            <Year>943 (1530-1541)</Year>
+            <Value>1/2 Dam (1/80)</Value>
+            <Currency>Rupee (1540-1842)</Currency>
+            <Composition>Copper</Composition>
+            <Weight>9.04 g</Weight>
+            <Diameter>16.8 mm</Diameter>
+            <Shape>Round</Shape>
+            <Orientation>-</Orientation>
+
+        </Features>
+        <Market>250 Rupees</Market>
+        <References>#hu2</References>
+        <Obverse>
+             Translation: AH 943
+        </Obverse>
+        <Reverse>
+            -
+      </Reverse>
+        <Edge>
+           Plain
+        </Edge>
+    </Coin>
+
+    <Coin>
+      <img1>MugPics\ak11.jpg</img1>
+      <img2>MugPics\ak12.jpg</img2>
+      <Theme>Akbar</Theme>
+      <Title>1 Dam - Akbar Ajmer Dakhil Salimabad Mint</Title>
+      <Features>
+        <Count>Mughal Empire</Count>
+        <Year>	965-1004 (1558-1605)</Year>
+        <Value>	1 Dam (1/40)</Value>
+        <Currency>Rupee (1540-1842)</Currency>
+        <Composition>Copper</Composition>
+        <Weight>20.56 g</Weight>
+        <Diameter>21.34 mm</Diameter>
+        <Shape>Round</Shape>
+        <Orientation>-</Orientation>
+      </Features>
+      <Market>250 Rupees</Market>
+      <References>#ak1</References>
+      <Obverse>
+          Mint mark - Flower
+      </Obverse>
+      <Reverse>
+          -
+      </Reverse>
+      <Edge>-</Edge>
+    </Coin>
+
+
+  <Coin>
+      <img1>MugPics\sh11.jpg</img1>
+      <img2>MugPics\sh12.jpg</img2>
+      <Theme>Shah Jahan</Theme>
+      <Title>1 Dam - Shah Jahan Bairata mint</Title>
+      <Features>
+        <Count>Mughal Empire</Count>
+        <Year>	1628-1658</Year>
+        <Value>	1 Dam (1/40)</Value>
+        <Currency>Rupee (1540-1842)</Currency>
+        <Composition>Copper</Composition>
+        <Weight>20.05 g</Weight>
+        <Diameter>21 mm</Diameter>
+        <Shape>Round</Shape>
+        <Orientation>-</Orientation>
+      </Features>
+      <Market>200 Rupees</Market>
+      <References>#sh1</References>
+      <Obverse>
+        Islamic Inscription
+      </Obverse>
+      <Reverse>
+        Islamic Inscription
+      </Reverse>
+      <Edge>-</Edge>
+    </Coin>
+
+    <Coin>
+      <img1>MugPics\mu11.jpg</img1>
+      <img2>MugPics\mu12.jpg</img2>
+      <Theme>Muhammad Shah</Theme>
+      <Title>1 Dam - Muhammad Shah Elichpur mint</Title>
+      <Features>
+        <Count>Mughal Empire</Count>
+        <Year>1719-1748</Year>
+        <Value>1 Dam (1/40)</Value>
+        <Currency>Rupee (1540-1842)</Currency>
+        <Composition>Copper</Composition>
+        <Weight>17.10 g</Weight>
+        <Diameter>19.70 mm</Diameter>
+        <Shape>Round</Shape>
+        <Orientation>-</Orientation>
+      </Features>
+      <Market>200 Rupees</Market>
+      <References>#mu1</References>
+      <Obverse>-
+
+      </Obverse>
+      <Reverse>-
+
+      </Reverse>
+      <Edge>-</Edge>
+    </Coin>
+
+    <Coin>
+      <img1>MugPics\ah11.jpg</img1>
+      <img2>MugPics\ah12.jpg</img2>
+      <Theme>Ahmad Shah</Theme>
+      <Title>1 Dam Ahmad Shah Elichpur Mint</Title>
+      <Features>
+        <Count>Mughal Empire</Count>
+        <Year>1748-1756</Year>
+        <Value>1 Dam (1/40)</Value>
+        <Currency>	Rupee (1540-1842)</Currency>
+        <Composition>Copper</Composition>
+        <Weight>17.10 g</Weight>
+        <Diameter>18 mm</Diameter>
+        <Shape>Round</Shape>
+        <Orientation>-</Orientation>
+      </Features>
+      <Market>250 Rupees</Market>
+      <References>#ah1</References>
+      <Obverse>-
+      </Obverse>
+      <Reverse>-
+      </Reverse>
+      <Edge>-</Edge>
+    </Coin>
+    <!--
+    <Coin>
+      <img1>MugPics\bi11.jpg</img1>
+      <img2>MugPics\bi12.jpg</img2>
+      <Theme>None</Theme>
+      <Title></Title>
+      <Features>
+        <Count>Mughal Empire</Count>
+        <Year></Year>
+        <Value></Value>
+        <Currency>	Rupee (1674-1818)</Currency>
+        <Composition>Copper</Composition>
+        <Weight></Weight>
+        <Diameter></Diameter>
+        <Shape>Round</Shape>
+        <Orientation>-</Orientation>
+      </Features>
+      <Market>Rupees</Market>
+      <References>#bi1</References>
+      <Obverse>
+
+      </Obverse>
+      <Reverse>
+
+      </Reverse>
+      <Edge>-</Edge>
+    </Coin>
+    -->
+</Mughal>

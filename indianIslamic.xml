@@ -1,0 +1,421 @@
+<indianIslamic>
+    <Introduction>
+        Indian Islamic coins includes coins from islamic states like Ahmadnagar, Bahmani Sultanate, Gujarat Sultanate, Malwa Sultanate, Bijapur, Golkonda, etc.
+    </Introduction>
+    <Coin>
+        <img1>IslPics\ah11.jpg</img1>
+        <img2>IslPics\ah12.jpg</img2>
+        <Theme>Sultanate of Ahmadnagar</Theme>
+        <Title>⅔ Falus - Burhan Nizam Shah III</Title>
+        <Features>
+        	
+            <Count>Sultanate of Ahmadnagar</Count>
+            <Year>1023-1037</Year>
+            <Value>⅔ Falus (2/3)</Value>
+            <Currency>Falus</Currency>
+            <Composition>Copper</Composition>
+            <Weight>9.2 g</Weight>
+            <Diameter>16 mm</Diameter>
+            <Shape>Round</Shape>
+            <Orientation>-</Orientation>
+
+        </Features>
+        <Market>150 Rupees</Market>
+        <References>#ah1</References>
+        <Obverse>
+            -
+        </Obverse>
+        <Reverse>
+            -
+      </Reverse>
+        <Edge>
+           -
+        </Edge>
+    </Coin>
+<Coin>
+      <img1>IslPics\ah21.jpg</img1>
+      <img2>IslPics\ah22.jpg</img2>
+      <Theme>None</Theme>
+        <Title>⅔ Falus - Burhan Nizam Shah III(Type II)</Title>
+        <Features>
+        	
+            <Count>Sultanate of Ahmadnagar</Count>
+            <Year>1023-1037</Year>
+            <Value>⅔ Falus (2/3)</Value>
+            <Currency>Falus</Currency>
+            <Composition>Copper</Composition>
+            <Weight>9.2 g</Weight>
+            <Diameter>16 mm</Diameter>
+            <Shape>Round</Shape>
+            <Orientation>-</Orientation>
+
+        </Features>
+        <Market>150 Rupees</Market>
+        <References>#ah2</References>
+        <Obverse>
+            -
+        </Obverse>
+        <Reverse>
+            -
+      </Reverse>
+        <Edge>
+           -
+        </Edge>
+    </Coin>
+    <Coin>
+      <img1>IslPics\ba21.jpg</img1>
+      <img2>IslPics\ba22.jpg</img2>
+      <Theme>Sultanate of Bahmani</Theme>
+      <Title>½ Gani - Shams al-Din Muhammad Shah III</Title>
+      <Features>
+        <Count>Sultanate of Bahmani</Count>
+        <Year>867-887</Year>
+        <Value>	½ Gani</Value>
+        <Currency>Tanka (1347-1518)</Currency>
+        <Composition>Copper</Composition>
+        <Weight>8 g</Weight>
+        <Diameter>17 mm</Diameter>
+        <Shape>Round</Shape>
+        <Orientation>-</Orientation>
+      </Features>
+      <Market>Rupees</Market>
+      <References>#ba2</References>
+      <Obverse>-
+
+      </Obverse>
+      <Reverse>-
+
+      </Reverse>
+      <Edge>-</Edge>
+    </Coin>
+<Coin>
+<img1>IslPics\ba11.jpg</img1>
+      <img2>IslPics\ba12.jpg</img2>
+      <Theme>None</Theme>
+      <Title>½ Gani - Shah Ahmad I wali</Title>
+      <Features>
+        <Count>Sultanate of Bahmani</Count>
+        <Year>825-838 (1422-1435)</Year>
+        <Value>1/2 Gani (1/120)</Value>
+        <Currency>	Tanka (1347-1518)</Currency>
+        <Composition>Copper</Composition>
+        <Weight>	5.00 g</Weight>
+        <Diameter>16.5 mm</Diameter>
+        <Shape>Round</Shape>
+        <Orientation>-</Orientation>
+      </Features>
+      <Market>150 Rupees</Market>
+      <References>#ba1</References>
+      <Obverse>
+                    -
+      </Obverse>
+      <Reverse>
+        Lettering: ٨٢٩
+      </Reverse>
+      <Edge>-</Edge>
+    </Coin>
+
+    <Coin>
+      <img1>IslPics\ba31.jpg</img1>
+      <img2>IslPics\ba32.jpg</img2>
+      <Theme>None</Theme>
+      <Title>2/3 Gani - Shah Ahmad I wali</Title>
+      <Features>
+        <Count>Sultanate of Bahmani</Count>
+        <Year>825-838 (1422-1435)</Year>
+        <Value>2/3 Gani (1/120)</Value>
+        <Currency>	Tanka (1347-1518)</Currency>
+        <Composition>Copper</Composition>
+        <Weight>	10.00 g</Weight>
+        <Diameter>19 mm</Diameter>
+        <Shape>Round</Shape>
+        <Orientation>-</Orientation>
+      </Features>
+      <Market>150 Rupees</Market>
+      <References>#ba3</References>
+      <Obverse>
+                    -
+      </Obverse>
+      <Reverse>
+        Lettering: ٨٢٩
+      </Reverse>
+      <Edge>-</Edge>
+    </Coin>
+
+
+    <Coin>
+      <img1>IslPics\ba41.jpg</img1>
+      <img2>IslPics\ba42.jpg</img2>
+      <Theme>None</Theme>
+      <Title>⅔ Gani - Ala Humayun Shah</Title>
+      <Features>
+        <Count>Sultanate of Bahmani</Count>
+        <Year>1458-1461</Year>
+        <Value>2/3 Gani</Value>
+        <Currency>	Tanka (1347-1518)</Currency>
+        <Composition>Copper</Composition>
+        <Weight>10.89 g</Weight>
+        <Diameter>19.4 mm</Diameter>
+        <Shape>Round</Shape>
+        <Orientation>-</Orientation>
+      </Features>
+      <Market>150 Rupees</Market>
+      <References>#ba4</References>
+      <Obverse>-
+
+      </Obverse>
+      <Reverse>-
+
+      </Reverse>
+      <Edge>-</Edge>
+    </Coin>
+
+    <Coin>
+      <img1>IslPics\ba51.jpg</img1>
+      <img2>IslPics\ba52.jpg</img2>
+      <Theme>None</Theme>
+      <Title>1⅔ Gani - Muhammad Shah III</Title>
+      <Features>
+        <Count>Sultanate of Bahmani</Count>
+        <Year>	867-886 (1463-1481)</Year>
+        <Value>1 2/3 Gani (1/36)</Value>
+        <Currency>Tanka (1347-1518)</Currency>
+        <Composition>Copper</Composition>
+        <Weight>16.45 g</Weight>
+        <Diameter>22 mm</Diameter>
+        <Shape>Round</Shape>
+        <Orientation>-</Orientation>
+      </Features>
+      <Market>250 Rupees</Market>
+      <References>#ba5</References>
+      <Obverse>-
+
+      </Obverse>
+      <Reverse>-
+
+      </Reverse>
+      <Edge>-</Edge>
+    </Coin>
+
+        <Coin>
+      <img1>IslPics\bi11.jpg</img1>
+      <img2>IslPics\bi12.jpg</img2>
+      <Theme>Sultanate of Bijapur</Theme>
+      <Title>1 Falus - Muhammad Adil Shah</Title>
+      <Features>
+        <Count>Sultanate of Bijapur</Count>
+        <Year>1037 (1628)</Year>
+        <Value>1 Falus (1)</Value>
+        <Currency>	Rupee (1674-1818)</Currency>
+        <Composition>Copper</Composition>
+        <Weight>11.1 g</Weight>
+        <Diameter>16.6 mm</Diameter>
+        <Shape>Round</Shape>
+        <Orientation>-</Orientation>
+      </Features>
+      <Market>200 Rupees</Market>
+      <References>#bi1</References>
+      <Obverse>
+            Dotted leaf motif
+      </Obverse>
+      <Reverse>
+            Dotted leaf motif
+      </Reverse>
+      <Edge>Plain</Edge>
+    </Coin>
+
+    <Coin>
+      <img1>IslPics\go11.jpg</img1>
+      <img2>IslPics\go12.jpg</img2>
+      <Theme>Sultanate of Golkonda</Theme>
+      <Title>1 Falus - Abd Allah Qutb Shah</Title>
+      <Features>
+        <Count>Sultanate of Golkonda</Count>
+        <Year>1068 (1658)</Year>
+        <Value>1 Falus</Value>
+        <Currency>Rupee (1518-1689)</Currency>
+        <Composition>Copper</Composition>
+        <Weight>10.1 g</Weight>
+        <Diameter>17 mm</Diameter>
+        <Shape>	Round (irregular)</Shape>
+        <Orientation>-</Orientation>
+      </Features>
+      <Market>100 Rupees</Market>
+      <References>#go1</References>
+      <Obverse>-
+
+      </Obverse>
+      <Reverse>-
+        
+      </Reverse>
+      <Edge>-</Edge>
+    </Coin>
+
+    <Coin>
+      <img1>IslPics\go21.jpg</img1>
+      <img2>IslPics\go22.jpg</img2>
+      <Theme>None</Theme>
+      <Title>1 Falus - Abdullah</Title>
+      <Features>
+        <Count>Sultanate of Golkonda</Count>
+        <Year>1028-1068 (1619-1658)</Year>
+        <Value>1 Falus (1/64)</Value>
+        <Currency>Rupee (1518-1689)</Currency>
+        <Composition>Copper</Composition>
+        <Weight>10.6 g</Weight>
+        <Diameter>19 mm</Diameter>
+        <Shape>	Round </Shape>
+        <Orientation>-</Orientation>
+      </Features>
+      <Market>100 Rupees</Market>
+      <References>#go2</References>
+      <Obverse>
+            AH Date
+
+             Lettering: ۱۰٦۸
+      </Obverse>
+      <Reverse>-
+        
+      </Reverse>
+      <Edge>Plain</Edge>
+    </Coin>
+
+    <Coin>
+      <img1>IslPics\gs11.jpg</img1>
+      <img2>IslPics\gs12.jpg</img2>
+      <Theme>Sultanate of Gujarat</Theme>
+      <Title>1½ Falus - Muzaffar Shah II AH 917-932</Title>
+      <Features>
+        <Count>Sultanate of Gujarat</Count>
+        <Year>917-932 (1512-1526)</Year>
+        <Value>1½ Falus</Value>
+        <Currency>Rupee (1396-1583)</Currency>
+        <Composition>Copper</Composition>
+        <Weight>14.26 g</Weight>
+        <Diameter>18.2 mm</Diameter>
+        <Shape>Round</Shape>
+        <Orientation>-</Orientation>
+      </Features>
+      <Market>150 Rupees</Market>
+      <References>#gs1</References>
+      <Obverse>-
+
+      </Obverse>
+      <Reverse>-
+
+      </Reverse>
+      <Edge>-</Edge>
+    </Coin>
+
+    <Coin>
+      <img1>IslPics\gs21.jpg</img1>
+      <img2>IslPics\gs22.jpg</img2>
+      <Theme>None</Theme>
+      <Title>1½ Falus - Qutb-ud-Din Bahadur Shah</Title>
+      <Features>
+        <Count>Sultanate of Gujarat</Count>
+        <Year>	932 (1526)</Year>
+        <Value>1½ Falus</Value>
+        <Currency>Rupee (1396-1583)</Currency>
+        <Composition>Copper</Composition>
+        <Weight>14.3 g</Weight>
+        <Diameter>16 mm</Diameter>
+        <Shape>Round</Shape>
+        <Orientation>-</Orientation>
+      </Features>
+      <Market>100 Rupees</Market>
+      <References>#gs2</References>
+      <Obverse>-
+
+      </Obverse>
+      <Reverse>-
+
+      </Reverse>
+      <Edge>-</Edge>
+    </Coin>
+
+    <Coin>
+      <img1>IslPics\ma11.jpg</img1>
+      <img2>IslPics\ma12.jpg</img2>
+      <Theme>Sultanate of Malwa</Theme>
+      <Title>1½ Falus - Nasir Shah</Title>
+      <Features>
+        <Count>Sultanate of Malwa</Count>
+        <Year>1500-1510</Year>
+        <Value>1.5 Falus (1.5)</Value>
+        <Currency>Tanka (1401-1562)</Currency>
+        <Composition>Copper</Composition>
+        <Weight>11.3 g</Weight>
+        <Diameter>18.5 mm</Diameter>
+        <Shape>Square</Shape>
+        <Orientation>-</Orientation>
+      </Features>
+      <Market>200 Rupees</Market>
+      <References>#ma1</References>
+      <Obverse>
+          Star mint mark with date AH101
+      </Obverse>
+      <Reverse>-
+
+      </Reverse>
+      <Edge>-</Edge>
+    </Coin>
+
+    <Coin>
+      <img1>IslPics\ma21.jpg</img1>
+      <img2>IslPics\ma22.jpg</img2>
+      <Theme>None</Theme>
+      <Title>1 Falus - Mahmud Shah II </Title>
+      <Features>
+        <Count>Sultanate of Bahmani</Count>
+        <Year>1510 - 1531</Year>
+        <Value>1 Falus</Value>
+        <Currency>Tanka (1401-1562)</Currency>
+        <Composition>Copper</Composition>
+        <Weight>11 g</Weight>
+        <Diameter>18.8 mm</Diameter>
+        <Shape>Square</Shape>
+        <Orientation>-</Orientation>
+      </Features>
+      <Market>Rupees</Market>
+      <References>#ma2</References>
+      <Obverse>-
+
+      </Obverse>
+      <Reverse>-
+
+      </Reverse>
+      <Edge>-</Edge>
+    </Coin>
+
+    <!--
+    <Coin>
+      <img1>IslPics\bi11.jpg</img1>
+      <img2>IslPics\bi12.jpg</img2>
+      <Theme>None</Theme>
+      <Title></Title>
+      <Features>
+        <Count>Sultanate of Bahmani</Count>
+        <Year></Year>
+        <Value></Value>
+        <Currency>	Rupee (1674-1818)</Currency>
+        <Composition>Copper</Composition>
+        <Weight></Weight>
+        <Diameter></Diameter>
+        <Shape>Round</Shape>
+        <Orientation>-</Orientation>
+      </Features>
+      <Market>Rupees</Market>
+      <References>#bi1</References>
+      <Obverse>
+
+      </Obverse>
+      <Reverse>
+
+      </Reverse>
+      <Edge>-</Edge>
+    </Coin>
+
+
+  -->
+</indianIslamic>

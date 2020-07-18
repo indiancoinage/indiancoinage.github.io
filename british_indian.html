@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="BIdesign.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indian Coinage</title>
+</head>
+<body id = "b">
+    <div class = "heading">
+        
+        <p class = "mainh" >Indian Coinage</p>
+    </div>
+    
+    <div>
+        <ul class="nav">
+            <li class ="navli"><a href="index.html">Home</a></li>
+            <li class ="navli"><a href="news.html">News</a></li>
+            <li class ="navli"><a href="contact.html">Contact</a></li>
+            <li style="float:right" class ="navli"><a class="active" href="about.html">About</a></li>
+          </ul>
+    </div>
+
+    <div class="intro">
+        <p style="
+        margin: 0cm;
+        -webkit-text-fill-color: white;
+        font-size:35px;
+        font-family:Brush Script MT;
+        ">Introduction</p>
+        <p id = "introduction"></p>
+        <p id = "total"></p>    
+    </div>
+    <div class="page" style="border:solid; margin-top: 0.2cm ; border-radius: 30px  ;" >
+        <ul class="pageList">
+            <li style="float: left;">Pages</li>
+
+        </ul>
+    </div>
+    <div class = 'links'>
+        <h3 style="margin:0px">Shortcuts</h3>
+        <ul class = 'linkList'>
+            
+        </ul>
+
+    </div>
+    
+        
+        
+        
+
+    <div style="text-align: center; padding: 0px; position: relative; width: 100%;">
+        <ul id="myList", style="list-style-type: none; table-layout: fixed; display: inline-block;  padding: 0%;">
+        
+        </ul>
+    </div>
+
+    <div class="page" style="border:solid; margin-top: 0.2cm ; border-radius: 30px  ;" >
+        <ul class="pageList">
+            <li style="float: left;"> Pages</li>
+
+        </ul>
+    </div>
+    
+    <script>        
+    
+    
+    var cur = localStorage.getItem('coinPage');
+    var start = localStorage.getItem('start');
+    //console.log(cur);
+       
+var xhttp = new XMLHttpRequest();
+xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+        myFunction(this);
+    }
+
+    document.documentElement.scrollTop=localStorage.getItem('scrollPosition');
+    //console.log(scroll);
+};
+xhttp.open("GET", cur, true);
+xhttp.send();
+
+
+
+function newLi(){
+    return document.createElement('li');
+}
+function myFunction(xml) {
+    localStorage.setItem('currentPage',cur);
+    var xmlDoc = xml.responseXML;
+    var x,y,z,a,b;
+    var k= xmlDoc.getElementsByTagName('Coin');   
+    var intro = xmlDoc.getElementsByTagName('Introduction')[0].childNodes[0];   
+    document.getElementById('introduction').innerHTML=intro.nodeValue;
+    document.getElementById('total').innerHTML="Total "+k.length+" coins are there in my collection.";
+    var pages = k.length / 12 ;
+    //console.log(pages);
+    var listPage = document.getElementsByClassName('pageList');
+    var m = xmlDoc.getElementsByTagName('Theme');
+   
+
+    for(var i=0; i<pages;i++){
+       
+        var noPage = document.createElement('li');
+        var linkPage = document.createElement('a');
+        var linkPage1 = document.createElement('a');
+        var noPage1 = document.createElement('li')
+        listPage[1].appendChild(noPage1);
+        listPage[0].appendChild(noPage);
+        noPage.style.float='left';
+        noPage1.style.float='left';
+        linkPage.style.color='blue';
+        linkPage.style.cursor='pointer';
+        linkPage.style.marginLeft='10px';
+
+        linkPage1.style.color='blue';
+        linkPage1.style.cursor='pointer';
+        linkPage1.style.marginLeft='10px';
+        var startt = Number(localStorage.getItem('start'))/12;
+        if(startt==i){
+            
+            linkPage.style.color='white';
+            linkPage1.style.color='white';
+            linkPage.style.backgroundColor='black';
+            linkPage1.style.backgroundColor='black';
+        }
+
+
+                
+        
+        
+        linkPage.innerHTML=i+1;
+        linkPage1.innerHTML=i+1;
+
+        linkPage.addEventListener('click',function(){
+     
+           var  a= (Number(this.innerHTML)-1)*12;
+            localStorage.setItem('start',a);
+            localStorage.setItem('scrollPosition',0);
+
+            window.open("british_indian.html","_self");
+        });
+
+        linkPage1.addEventListener('click',function(){
+            
+            var  a= (Number(this.innerHTML)-1)*12;
+             localStorage.setItem('start',a);
+             localStorage.setItem('scrollPosition',0);
+             window.open("british_indian.html","_self");
+         });
+        noPage.appendChild(linkPage); 
+        noPage1.appendChild(linkPage1);        
+    }
+
+    for(var i = 0; i<m.length;i++){
+       let k=m[i].childNodes[0].nodeValue;
+       if(k.localeCompare('None')!=0){
+           var a = document.createElement('a');
+           var li = document.createElement('li');
+           a.href='#'+k;
+           a.innerHTML=k;
+           li.style.marginTop='10px';
+           li.appendChild(a);
+           var ul = document.getElementsByClassName('linkList');
+           ul[0].appendChild(li);
+           var page = Math.floor(i/12);
+           
+           a.id= page*12;
+           
+           a.addEventListener('click',function(){
+                localStorage.setItem('start',this.id);
+                localStorage.setItem('scrollPosition',0);
+                window.open("british_indian.html","_self");
+           });
+           
+       }
+   }
+  
+    var startPoint = Number(localStorage.getItem('start'));
+    
+    var endPoint;
+    if (startPoint+12 > k.length){
+        endPoint=k.length;
+    }
+    else{
+        endPoint=startPoint+12;
+    }
+    for(var i=startPoint;i<endPoint;i++){
+        var div1 = document.createElement('div');
+        var div2 = document.createElement('div');
+        var img1 = document.createElement('img');
+        var img2 = document.createElement('img');
+        var par = document.createElement('p');
+        var par1 = document.createElement('p');
+        var link = document.createElement('a');
+        var par2 = document.createElement('p');
+        var node2 = document. createTextNode("n25");
+        var par3 = document.createElement('p');
+        var theme = document.createElement('h2');
+        
+        var them; 
+        var anchor1 = document.createElement('a');
+        var anchor2 = document.createElement('a');
+        anchor2.style.textDecoration='none';
+        anchor2.style.color='blue';
+        divcent = document.createElement('div');
+        divcent.style.textAlign='center';
+
+        theme.style.marginLeft='10%';
+        theme.style.marginTop='2cm';
+        theme.style.textDecoration='underline';
+
+        div1.style.marginTop="0.5cm";
+        div1.style.padding="0cm";
+        div1.style.position="relative";
+        div1.style.border='solid';
+        div1.style.height="auto";
+        if(screen.width<600){
+            div1.style.width="100%";
+            div1.style.overflowX='scroll';
+        }
+        else{
+            div1.style.width="500px";
+            div1.style.overflow='hidden';
+        }
+        
+        div1.style.backgroundColor="black";
+        div1.style.borderRadius="30px";
+        div1.style.cursor='pointer';
+        
+        
+
+        img1.style.display="inline-block";
+        img1.style.float="left";
+        img1.style.height="123px";
+        img1.style.width="123px";
+        img1.style.marginLeft="0.5cm";
+        img1.style.borderRadius="50%";
+        img1.style.marginTop='6px';
+
+        img2.style.display="inline-block";
+        img2.style.marginLeft="0.5cm";
+        img2.style.float="left";
+        img2.style.height="123px";
+        img2.style.width="123px";
+        img2.style.borderRadius="50%";
+        img2.style.marginTop='6px';
+
+        div2.style.padding="0cm";
+        div2.style.display="inline-block";
+        div2.style.marginLeft="1cm";
+        div2.style.marginTop="-3px";
+        div2.style.position="absolute";
+        div2.style.height="150px";
+        div2.style.width="38%";
+        //div2.style.border='solid';
+        div2.style.overflowY='Hidden';
+        div2.style.color="white";
+        div1.style.textAlign='left';
+
+        var ul = document.getElementById('myList');
+
+        /*link.display="block";
+        link.width="100%";
+        link.left="20%";
+        link.height="125px";
+        link.href="final.html";*/
+
+
+        var li = document.createElement('li');
+        x = xmlDoc.getElementsByTagName('Title')[i].childNodes[0];
+        y = xmlDoc.getElementsByTagName('Composition')[i].childNodes[0];
+        z = xmlDoc.getElementsByTagName('Year')[i].childNodes[0];
+        a = xmlDoc.getElementsByTagName('img1')[i].childNodes[0];
+        b = xmlDoc.getElementsByTagName('img2')[i].childNodes[0];
+        them = xmlDoc.getElementsByTagName('Theme')[i].childNodes[0].nodeValue;
+        par.innerHTML = x.nodeValue;
+        par1.innerHTML = y.nodeValue;
+        par2.innerHTML = z.nodeValue;
+        par3.innerHTML=xmlDoc.getElementsByTagName('Count')[i].childNodes[0].nodeValue;
+        img1.src=a.nodeValue;
+        img2.src=b.nodeValue;
+        //console.log(sceen.width);
+        
+      
+        /*div1.appendChild(link);
+        link.appendChild(img1);
+        link.appendChild(img2);
+        link.appendChild(div2);*/
+        div1.appendChild(img1);
+        div1.appendChild(img2);
+        div1.appendChild(div2);
+        div2.appendChild(par);
+        div2.appendChild(par3);
+        div2.appendChild(par1);
+        div2.appendChild(par2);
+        if(them.localeCompare('None') != 0){
+            
+           
+          
+            
+            
+            
+            theme.innerHTML=them;
+            anchor1.id=them;
+            anchor1.appendChild(theme);
+            ul.appendChild(newLi().appendChild(anchor1));
+        }
+        ul.appendChild(newLi().appendChild(div1));
+        div1.id = xmlDoc.getElementsByTagName('References')[i].childNodes[0].nodeValue;
+        //console.log(document.body.scrollTop);
+        div1.addEventListener('click',function(){
+            localStorage.setItem('reference',this.id);
+            localStorage.setItem('scrollPosition',document.documentElement.scrollTop);
+            window.open("final.html","_self");
+        });
+    }   
+}
+
+
+
+/*document.addEventListener('DOMContentLoaded',()=>{
+    let url = "britishIndian.xml";
+    fetch(url)
+    .then(response=>response.text())
+    .then(data=>{
+        let parser = new DOMParser();
+    let xml = parser.parseFromString(data,"application/xml");
+    document.getElementsByClassName('just')[0].textContent=data;
+    myFunction(xml);
+    });
+    
+});
+    function myFunction(xx){
+        let a=xx.getElementsByTagName('Coin');
+        
+        let m=document.getElementsByClassName('just');
+        
+        m[0].innerHTML=a[0].childNodes[0].nodeValue;
+    }*/
+
+
+
+    
+
+    </script>
+   
+    
+        
+</body>
+</html>

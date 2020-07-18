@@ -1,0 +1,115 @@
+<Dutch>
+    <Introduction>
+        The Dutch East India Company (Dutch: Vereenigde Oostindische Compagnie, often known as VOC) was a chartered company which issued a considerable series of coinage in bronze, silver and gold for its territories in the Far East between 1602 and 1799.
+    </Introduction>
+    <Coin>
+        <img1>DuPics\du12.jpg</img1>
+        <img2>DuPics\du11.jpg</img2>
+        <Theme>Indo Dutch VOC </Theme>
+        <Title>1 duit, 1737</Title>
+        <Features>
+        	
+            <Count>Indo Dutch</Count>
+            <Year>1737</Year>
+            <Value>1 Duit</Value>
+            <Currency>Duit</Currency>
+            <Composition>Copper</Composition>
+            <Weight>3.2 g</Weight>
+            <Diameter>21.6 mm</Diameter>
+            <Shape>Round</Shape>
+            <Orientation>Medal alignment ↑↑</Orientation>
+
+        </Features>
+        <Market>150 Rupees</Market>
+        <References>#du1</References>
+        <Obverse>
+            Crown over shield containing two lions.
+        </Obverse>
+        <Reverse>
+            VOC monogram in middle, mintmark (rosette) at top between flowers, date below.
+
+            Lettering:
+            VOC
+            1737
+
+            Translation: VOC (Vereenigde Oost-Indische Compagnie) : United East India Company
+      </Reverse>
+        <Edge>
+           Plain
+        </Edge>
+    </Coin>
+
+    <Coin>
+        <img1>DuPics\du22.jpg</img1>
+        <img2>DuPics\du21.jpg</img2>
+        <Theme>None</Theme>
+        <Title>1 duit, 1790</Title>
+        <Features>
+        	
+            <Count>Indo Dutch</Count>
+            <Year>1741-1794</Year>
+            <Value>1 Duit</Value>
+            <Currency>Duit</Currency>
+            <Composition>Copper</Composition>
+            <Weight>3 g</Weight>
+            <Diameter>22 mm</Diameter>
+            <Shape>Round</Shape>
+            <Orientation>Medal alignment ↑↑</Orientation>
+
+        </Features>
+        <Market>150 Rupees</Market>
+        <References>#du3</References>
+        <Obverse>
+            Crowned Utrecht arms with lion supporters.
+        </Obverse>
+        <Reverse>
+            VOC monogram in middle, mintmark (Star) at top , date below.
+
+            Lettering:
+            VOC
+            1790
+
+            Translation: VOC (Vereenigde Oost-Indische Compagnie) : United East India Company
+      </Reverse>
+        <Edge>
+           Plain
+        </Edge>
+    </Coin>
+
+    <Coin>
+        <img1>DuPics\du32.jpg</img1>
+        <img2>DuPics\du31.jpg</img2>
+        <Theme>None</Theme>
+        <Title>1 duit, 1794</Title>
+        <Features>
+        	
+            <Count>Indo Dutch</Count>
+            <Year>	1729-1794</Year>
+            <Value>1 Duit</Value>
+            <Currency>Duit</Currency>
+            <Composition>Copper</Composition>
+            <Weight>3 g</Weight>
+            <Diameter>22 mm</Diameter>
+            <Shape>Round</Shape>
+            <Orientation>Medal alignment ↑↑</Orientation>
+
+        </Features>
+        <Market>150 Rupees</Market>
+        <References>#du2</References>
+        <Obverse>
+            Coat of Arms of Zeeland, Netherlands. Dutch lion in sea on shield with crown.
+        </Obverse>
+        <Reverse>
+            VOC monogram in middle, castle at top between stars, date below.
+
+            Lettering:
+            VOC
+            1794
+
+            Translation: VOC (Vereenigde Oost-Indische Compagnie) : United East India Company
+      </Reverse>
+        <Edge>
+           Plain
+        </Edge>
+    </Coin>
+</Dutch>

@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="BIdesign.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indian Coinage</title>
+</head>
+<body id = "b">
+    <div class = "heading">
+        
+        <p class = "mainh" >Indian Coinage</p>
+    </div>
+    <div>
+        <ul class="nav">
+            <li class ="navli"><a href="index.html">Home</a></li>
+            <li class ="navli"><a href="news.html">News</a></li>
+            <li class ="navli"><a href="contact.html">Contact</a></li>
+            <li style="float:right" class ="navli"><a class="active" href="about.html">About</a></li>
+          </ul>
+    </div>
+
+    
+    <script>        
+        
+        
+        var xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function() {
+            if (this.readyState == 4 && this.status == 200) {
+                myFunction(this);
+            }
+        };
+        var m = localStorage.getItem('currentPage');
+        xhttp.open("GET", m, true);
+        xhttp.send();
+
+        
+        
+        
+        function myFunction(xml) {
+            var scroll=localStorage.getItem('scrollPosition');
+            //console.log(scroll);
+            var xmlDoc = xml.responseXML;
+            var x = localStorage.getItem("reference");
+            var div1=document.createElement('div');
+            var div2=document.createElement('div');
+            var img1=document.createElement('img');
+            var img2=document.createElement('img');
+            var link = document.createElement('a');
+            var link1 = document.createElement('a');
+            var par =  document.createElement('p');
+            var heading = document.createElement('h1');
+            var divcent = document.createElement('div');
+            heading.style.textAlign='center';
+            var table = document.createElement('table');
+            var divHead = document.createElement('div');
+
+            function retH2(para){
+                var fea = document.createElement('h2');
+                fea.innerHTML=para;
+                var feat = document.createElement('th');
+                feat.appendChild(fea);
+                return feat;
+            }
+            //var fea = document.createElement('h2');
+            //var feat = document.createElement('th');
+            var table1 = document.createElement('table');
+            //var obverse = document.createElement('')
+            heading.style.fontSize='50px';
+            table.textAlign="left";
+            table.style.display='inline-block';
+           // table.style.border='solid';
+            table.style.borderColor='powderblue';
+            table.style.borderRadius='30px';
+            table.style.padding='20px';
+            table.style.paddingTop='10px';
+            table.style.float='left';
+            
+            table.style.marginTop="-20px";
+            if(screen.width<600){
+                table.style.width="100%";
+            }
+            else{
+                table.style.width="400px";
+                table.style.marginLeft="20px";
+            }
+            //table.style.border='solid';
+            table.style.backgroundColor='black';
+
+            table1.style.display='inline-block';
+            table1.style.float='left';
+            //table1.style.border='solid';
+            
+            table1.style.borderRadius='30px';
+            table1.style.padding='20px';
+            table1.style.paddingTop='10px';
+            table1.style.float='left';
+            
+            table1.style.marginTop="10px";
+            if(screen.width<600){
+                table1.style.width="100%";
+            }
+            else{
+                table1.style.width="400px";
+                table1.style.marginLeft="20px";
+            }
+            
+            table1.style.backgroundColor='black';
+            
+
+            div1.style.marginTop="0.5cm";
+            div1.style.padding="0cm";
+            div1.style.position="relative";
+            div1.style.border='solid';
+            div1.style.height="150px";
+            div1.style.width="320px";
+            div1.style.display='inline-block';
+            div1.style.backgroundColor="black";
+            div1.style.borderRadius="30px";
+            
+            
+
+            img1.style.display="inline-block";
+            img1.style.float="left";
+            img1.style.height="150px";
+            img1.style.width="150px";
+            
+            
+            img1.style.borderRadius="50%";
+            img1.style.position='absolute';
+            img1.style.left='0';
+
+            img2.style.display="inline-block";
+            img2.style.marginLeft="1.7cm";
+            img2.style.float="left";
+            img2.style.height="150px";
+            img2.style.width="150px";
+            img2.style.borderRadius="50%";
+            //img1.style.minwidth="250px";
+            img2.style.position='absolute';
+            img2.style.right='0';
+            
+
+
+            div2.style.marginTop="0.5cm";
+            div2.style.height='490px';
+            div2.style.padding="0cm";
+            div2.style.position="relative";
+            //div2.style.overflow:'visible';
+            //div2.style.height="";
+            div2.style.width="100%";
+            //div2.style.backgroundColor="black";
+            div2.style.borderRadius="30px";
+            div2.style.color='white';
+           
+            
+            //div2.style.textAlign='center';
+
+            link.display="block";
+            link.width="100%";
+            link.left="20%";
+            link.height="125px";
+            link.href="final.html";
+
+            link1.display="block";
+            link1.width="100%";
+            link1.left="20%";
+            link1.height="125px";
+            link1.href="final.html";
+            divcent.style.textAlign='center';
+            document.body.append(divcent);
+            divcent.appendChild(div1);
+            //document.body.append(heading);
+           
+
+            var r= xmlDoc.getElementsByTagName('References');
+            //console.log(r);
+            //console.log(x);
+            //console.log(r.localeCompare(x));
+
+            var present = 0;
+            for(var i = 0;i<r.length;i++){
+                var now = r[i].childNodes[0].nodeValue;
+                var result = now.localeCompare(x);
+                
+                if(result == 0){
+                   present= i;
+                  
+                    break;
+                }
+            }
+            heading.style.backgroundColor='black';
+            heading.style.borderRadius='30px';
+            heading.innerHTML=xmlDoc.getElementsByTagName('Title')[present].childNodes[0].nodeValue;
+            
+            document.body.append(div2);
+            div1.appendChild(link);
+            div1.appendChild(link1);
+            link.appendChild(img1);
+            link1.appendChild(img2);
+            div2.appendChild(heading);
+            var i1= xmlDoc.getElementsByTagName('img1')[present].childNodes[0].nodeValue;
+            var i2= xmlDoc.getElementsByTagName('img2')[present].childNodes[0].nodeValue;
+            img1.src=i1;
+            img2.src=i2;
+            link.addEventListener('click',function(){
+                localStorage.setItem('currentImage',i1);
+                window.open("imageOpen.html");
+            });
+            link1.addEventListener('click',function(){
+                localStorage.setItem('currentImage',i2);
+                window.open("imageOpen.html");
+            });
+            var coun = document.createElement('td');
+            var year = document.createElement('td');
+            var value = document.createElement('td');
+            var currency = document.createElement('td');
+            var compo = document.createElement('td');
+            var weight = document.createElement('td');
+            var dia = document.createElement('td');
+            var shape = document.createElement('td');
+            var ori = document.createElement('td');
+            var edge = document.createElement('td');
+            var obv = document.createElement('td');
+            var rev = document.createElement('td');
+            var mar = document.createElement('td');
+            //var obv = document.createElement('td');
+            coun.innerHTML=xmlDoc.getElementsByTagName('Count')[present].childNodes[0].nodeValue;
+            year.innerHTML=xmlDoc.getElementsByTagName('Year')[present].childNodes[0].nodeValue;
+            value.innerHTML=xmlDoc.getElementsByTagName('Value')[present].childNodes[0].nodeValue;
+            currency.innerHTML=xmlDoc.getElementsByTagName('Currency')[present].childNodes[0].nodeValue;
+            compo.innerHTML=xmlDoc.getElementsByTagName('Composition')[present].childNodes[0].nodeValue;
+            weight.innerHTML=xmlDoc.getElementsByTagName('Weight')[present].childNodes[0].nodeValue;
+            dia.innerHTML=xmlDoc.getElementsByTagName('Diameter')[present].childNodes[0].nodeValue;
+            shape.innerHTML=xmlDoc.getElementsByTagName('Shape')[present].childNodes[0].nodeValue;            
+            ori.innerHTML=xmlDoc.getElementsByTagName('Orientation')[present].childNodes[0].nodeValue;
+            edge.innerHTML=xmlDoc.getElementsByTagName('Edge')[present].childNodes[0].nodeValue;
+            obv.innerHTML=xmlDoc.getElementsByTagName('Obverse')[present].childNodes[0].nodeValue;
+            rev.innerHTML=xmlDoc.getElementsByTagName('Reverse')[present].childNodes[0].nodeValue;
+            mar.innerHTML=xmlDoc.getElementsByTagName('Market')[present].childNodes[0].nodeValue;
+
+            var Coun = document.createElement('td');
+            var Year = document.createElement('td');
+            var Value = document.createElement('td');
+            var Currency = document.createElement('td');
+            var Compo = document.createElement('td');
+            var Weight = document.createElement('td');
+            var Dia = document.createElement('td');
+            var Shape = document.createElement('td');
+            var Ori = document.createElement('td');
+            var Edge = document.createElement('td');
+            var Mar = document.createElement('td');
+            
+            Coun.innerHTML="Country";
+            Year.innerHTML="Year";
+            Value.innerHTML="Value";
+            Currency.innerHTML="Currency";
+            Compo.innerHTML="Composition";
+            Weight.innerHTML="Weight";
+            Dia.innerHTML="Diameter";
+            Shape.innerHTML="Shape";            
+            Ori.innerHTML="Orientation";
+            Edge.innerHTML="Edge";
+            Mar.innerHTML="Market value";
+            
+            function newTr( td1, td2){
+
+                var tr = document.createElement('tr');
+                tr.style.paddingRight="15px";
+                td1.style.paddingRight="15px";
+                td2.style.paddingRight="15px";
+                tr.appendChild(td1);
+                tr.appendChild(td2);
+                return tr;
+            }
+            function newTr1( td1){
+
+                var tr = document.createElement('tr');
+                tr.style.paddingRight="15px";
+                td1.style.paddingRight="15px";
+                
+                tr.appendChild(td1);
+                
+                return tr;
+            }
+
+            
+            
+            
+            div2.style.marginBottom='50px';
+            
+            table.appendChild(retH2('Features'));
+            table.appendChild(newTr(Coun,coun));
+            table.appendChild(newTr(Year,year));
+            table.appendChild(newTr(Value,value));
+            table.appendChild(newTr(Currency,currency));
+            table.appendChild(newTr(Compo,compo));
+            table.appendChild(newTr(Weight,weight));
+            table.appendChild(newTr(Dia,dia));
+            table.appendChild(newTr(Shape,shape));
+            table.appendChild(newTr(Ori,ori));
+            table.appendChild(newTr(Edge,edge));
+            table.appendChild(newTr(Mar,mar));
+            div2.appendChild(table);
+
+            table1.appendChild(retH2('Obverse'));
+            table1.appendChild(newTr1(obv));
+            table1.appendChild(retH2('Reverse'));
+            table1.appendChild(newTr1(rev));
+            div2.appendChild(table1);
+            
+        }
+        
+        </script>   
+
+    
+        
+</body>
+</html>

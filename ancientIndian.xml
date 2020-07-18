@@ -1,0 +1,70 @@
+<ancientIndian>
+    <Introduction>
+        Coinage of India began anywhere between early 1st millennium BCE to the 6th century BCE, and consisted mainly of copper and silver coins in its initial stage. The coins of this period were Karshapanas or Pana. A variety of earliest Indian coins, however, unlike those circulated in West Asia, were stamped bars of metal, suggesting that the innovation of stamped currency was added to a pre-existing form of token currency which had already been present in the Janapadas and Mahajanapada kingdoms of the Early historic India. The kingdoms that minted their own coins included Gandhara, Kuntala, Kuru, Panchala, Magadha, Shakya, Surasena and Surashtra etc.    </Introduction>
+    <Coin>
+        <img1>AIPics\ma11.jpg</img1>
+        <img2>AIPics\ma12.jpg</img2>
+        <Theme>Maurya Empire</Theme>
+        <Title>Karshapana - Mauryan Sunga Empire</Title>
+        
+
+        <Features>
+            <Count>	Mauryan Empire (India (ancient))</Count>
+            <Year>300 BC - 150 BC</Year>
+            <Value>Karshapana (1)</Value>
+            <Currency>Karshapana (322 BC to 185 BC)</Currency>
+            <Composition>Bronze</Composition>
+            <Weight>2.08 g</Weight>
+            <Diameter>11 mm</Diameter>
+            <Shape>Square</Shape>
+            <Orientation>-</Orientation>
+
+        </Features>
+        <Market>150 Rupees</Market>
+        <References>#ma1</References>
+        <Obverse>
+            Five marks       
+        </Obverse>
+        <Reverse>
+            One mark
+        </Reverse>
+        <Edge>
+            -
+        </Edge>
+        
+    </Coin>
+
+    <Coin>
+        <img1>AIPics\ma21.jpg</img1>
+        <img2>AIPics\ma22.jpg</img2>
+        <Theme>None</Theme>
+        <Title>1 Karshapana - Mauryan Empire</Title>
+        
+
+        <Features>
+
+            <Count>Mauryan Empire (India (ancient))</Count>
+            <Year>300 BC - 150 BC</Year>
+            <Value>Karshapana (1)</Value>
+            <Currency>Karshapana (322 BC to 185 BC)</Currency>
+            <Composition>Silver</Composition>
+            <Weight>3.4 g</Weight>
+            <Diameter>11 mm</Diameter>
+            <Shape>Square</Shape>
+            <Orientation>-</Orientation>
+
+        </Features>
+        <Market>450 Rupees</Market>
+        <References>#ma2</References>
+        <Obverse>
+            Five Punch Marks including Sun, six-armed symbol, peacock, scales, cresent on hill.
+        </Obverse>
+        <Reverse>
+            One mark - peacock on hill
+        </Reverse>
+        <Edge>
+            -
+        </Edge>
+        
+    </Coin>
+</ancientIndian>

@@ -1,0 +1,184 @@
+<portugalIndian>
+    <Introduction>
+         Portuguese India, also known as the State of India, existed from 1505, and consisted of Indian coastline colonies, as well as parts of Ceylon (Sri Lanka). Between gifting areas to Britain and losing areas to the Maratha Empire, the Portuguese colonies declined, but did so at a slow rate. After India gained its independence in 1947, the Indian government demanded Portugal to surrender their remaining colonies, but Portugal resisted. In 1961, the Indian military invaded Daman, Diu, and Goa, causing the Governor of Portuguese India to finally surrender.
+    </Introduction>
+    <Coin>
+        <img1>PIPics\pi11.jpg</img1>
+        <img2>PIPics\pi12.jpg</img2>
+        <Theme>Escudo (1958-1961)</Theme>
+        <Title>10 Centavos</Title>
+        <Features>
+        
+            <Count>	India - Portuguese </Count>
+            <Year>1958-1961</Year>
+            <Value>10 Centavos (0.10)</Value>
+            <Currency>Escudo (1958-1961)</Currency>
+            <Composition>Bronze</Composition>
+            <Weight>2 g</Weight>
+            <Diameter>18 mm</Diameter>
+            <Shape>Round</Shape>
+            <Orientation>Coin alignment ↑↓</Orientation>
+
+        </Features>
+        <Market>100 Rupees</Market>
+        <References>#pi1</References>
+        <Obverse>
+            Lettering:
+            ESTADO·DA·INDIA
+            1958
+        </Obverse>
+        <Reverse>
+            Lettering:
+            REPUBLICA · PORTUGUESA
+            10
+            CENTAVOS
+        </Reverse>
+        <Edge>
+            Smooth
+        </Edge>
+        
+    </Coin>
+
+    <Coin>
+        <img1>PIPics\pi21.jpg</img1>
+        <img2>PIPics\pi22.jpg</img2>
+        <Theme>None</Theme>
+        <Title>60 Centavos</Title>
+        <Features>
+        
+            <Count>	India - Portuguese </Count>
+            <Year>1958-1961</Year>
+            <Value>60 Centavos (0.60)</Value>
+            <Currency>Escudo (1958-1961)</Currency>
+            <Composition>Copper-nickel</Composition>
+            <Weight>3.5 g</Weight>
+            <Diameter>20 mm</Diameter>
+            <Shape>Round</Shape>
+            <Orientation>Coin alignment ↑↓</Orientation>
+
+        </Features>
+        <Market>100 Rupees</Market>
+        <References>#pi2</References>
+        <Obverse>
+            Lettering:
+            ESTADO·DA·INDIA
+            $60
+        </Obverse>
+        <Reverse>
+            REPUBLICA · PORTUGUESA
+            1958 
+        </Reverse>
+        <Edge>
+            Smooth
+        </Edge>
+        
+    </Coin>
+
+    <Coin>
+        <img1>PIPics\pi31.jpg</img1>
+        <img2>PIPics\pi32.jpg</img2>
+        <Theme>None</Theme>
+        <Title>1 Escudo</Title>
+        <Features>
+        	
+            <Count>	India - Portuguese </Count>
+            <Year>1958-1961</Year>
+            <Value>1 Escudo (1)</Value>
+            <Currency>Escudo (1958-1961)</Currency>
+            <Composition>Copper-nickel</Composition>
+            <Weight>5.6 g</Weight>
+            <Diameter>23 mm</Diameter>
+            <Shape>Round</Shape>
+            <Orientation>Coin alignment ↑↓</Orientation>
+
+        </Features>
+        <Market>100 Rupees</Market>
+        <References>#pi3</References>
+        <Obverse>
+            Lettering:
+            ESTADO·DA·INDIA
+            1$00
+        </Obverse>
+        <Reverse>
+            Lettering:
+            REPÚBLICA · PORTUGUESA
+            ·1959·
+        </Reverse>
+        <Edge>
+            Smooth
+        </Edge>
+        
+    </Coin>
+
+    <Coin>
+        <img1>PIPics\pi41.jpg</img1>
+        <img2>PIPics\pi42.jpg</img2>
+        <Theme>None</Theme>
+        <Title>	3 Escudos</Title>
+        <Features>
+        	
+            <Count>	India - Portuguese </Count>
+            <Year>1958-1961</Year>
+            <Value>1 Escudo (1)</Value>
+            <Currency>Escudo (1958-1961)</Currency>
+            <Composition>Copper-nickel</Composition>
+            <Weight>5.6 g</Weight>
+            <Diameter>23 mm</Diameter>
+            <Shape>Round</Shape>
+            <Orientation>Coin alignment ↑↓</Orientation>
+
+        </Features>
+        <Market>150 Rupees</Market>
+        <References>#pi4</References>
+        <Obverse>
+            Lettering:
+            ESTADO·DA·INDIA
+            3$00
+        </Obverse>
+        <Reverse>
+            Lettering:
+            REPÚBLICA · PORTUGUESA
+            ·1958·
+        </Reverse>
+        <Edge>
+           Reeded
+        </Edge>
+        
+    </Coin>
+
+    <Coin>
+        <img1>PIPics\pi51.jpg</img1>
+        <img2>PIPics\pi52.jpg</img2>
+        <Theme>None</Theme>
+        <Title>	6 Escudos</Title>
+        <Features>
+        	
+            <Count>	India - Portuguese </Count>
+            <Year>1958-1961</Year>
+            <Value>1 Escudo (1)</Value>
+            <Currency>Escudo (1958-1961)</Currency>
+            <Composition>Copper-nickel</Composition>
+            <Weight>5.6 g</Weight>
+            <Diameter>23 mm</Diameter>
+            <Shape>Round</Shape>
+            <Orientation>Coin alignment ↑↓</Orientation>
+
+        </Features>
+        <Market>300 Rupees</Market>
+        <References>#pi5</References>
+        <Obverse>
+            Lettering:
+            ESTADO·DA·INDIA
+            6$00
+        </Obverse>
+        <Reverse>
+            Lettering:
+            REPÚBLICA · PORTUGUESA
+            ·1959·
+        </Reverse>
+        <Edge>
+           Reeded
+        </Edge>
+        
+    </Coin>
+</portugalIndian>

@@ -1,0 +1,51 @@
+<Northen>
+    <Introduction>
+       Northern Dynasties include Chauhan Dynasty,
+            Gadhaiya,
+            Gurjuras Confederacy,
+
+            Kabul Shahi Dynasties,
+
+
+            Kingdom of Kangra,
+
+            Post-Hunnic dynasties of Kashmir,
+
+            Pratihara Empire and 
+
+            Tomara dynasty.
+
+    </Introduction>
+    <Coin>
+        <img1>NorthPics\n11.jpg</img1>
+        <img2>NorthPics\n12.jpg</img2>
+        <Theme>Kabul Shahi Dynasties</Theme>
+        <Title>Jital - "Bronze" - Samanta deva - 850-1000 AD</Title>
+        <Features>
+        	
+            <Count>	Kabul Shahi Dynasties (Northern Dynasties)</Count>
+            <Year>	850-1000</Year>
+            <Value>1 Jital (1)</Value>
+            <Currency>Jital (500-1026)</Currency>
+            <Composition>Copper</Composition>
+            <Weight>	3.16 g</Weight>
+            <Diameter>144 mm</Diameter>
+            <Shape>Round</Shape>
+            <Orientation>-</Orientation>
+
+        </Features>
+        <Market>250 Rupees</Market>
+        <References>#n1</References>
+        <Obverse>
+            Very clear devanagari letters on top of bull
+
+            Lettering: Sri Samanta deva
+        </Obverse>
+        <Reverse>
+            No ruler name in front of the horse.
+      </Reverse>
+        <Edge>
+           -
+        </Edge>
+    </Coin>
+</Northen>

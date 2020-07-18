@@ -1,0 +1,276 @@
+<Delhi>
+    <Introduction>
+        
+The earliest Mohammedan Kingdom in India was set up by Imadu-d-din Qasim in Sindh around 712 AD, but politically it wasn't a significant entity and hence the coinage is not explained in this section.
+The expedition of the great Sultan Mahmud of Ghazni opened up the northern frontier of India in about 1051, and it wad that time the Lahore was annexed and the billon coinage was circulated by him.  He retained the classical and popular Rajputan device "The Bull and the Horseman" but engraved Arabic legend in the Cufic script.  The last of Ghaznavid prince of Lahore, Khusru Malik was deposed in 1187 AD by Muhammad Bin Sam of Ghor and there came the beginning of the first Mohammedan dynasty of India.  To express the greatness of their numismatic art, the coinage could be subdivided into three subsections namely 1. From the accession of Qutubud-d-din Aibak (1206 AD) till the Ghiyasud-d-din Tughluq's rule (1324 AD), 2. Reign of the great Muhammad Bin Tughluq and 3. From the accession of Firoz Shah-III till the death of Ibrahim Lodi (1526 AD).
+    </Introduction>
+
+    <Coin>
+      <img1>DSPics\d81.jpg</img1>
+      <img2>DSPics\d82.jpg</img2>
+      <Theme>Mamluk Dynasty</Theme>
+      <Title>1 Jital - Bahram Shah Mamluk Dynasty</Title>
+      <Features>
+        <Count>Sultanate of Delhi</Count>
+        <Year>	1240-1242</Year>
+        <Value>1 Jital (1)</Value>
+        <Currency>Tanka (1206-1526)</Currency>
+        <Composition>Billon</Composition>
+        <Weight>3.4 g</Weight>
+        <Diameter>14 mm</Diameter>
+        <Shape>	Round</Shape>
+        <Orientation>-</Orientation>
+      </Features>
+      <Market>100 Rupees</Market>
+      <References>#d7</References>
+      <Obverse>
+          Bull to Left, Inscription in Nagari Above
+          Mu'iz Bahram (1240-42)
+
+          Lettering: Sultan Sa(Shah) Muyajadin
+      </Obverse>
+      <Reverse>
+            Horseman to Right
+
+            Lettering: Sri Hamira
+      </Reverse>
+      <Edge>Smooth</Edge>
+    </Coin>
+    <Coin>
+      <img1>DSPics\d71.jpg</img1>
+      <img2>DSPics\d72.jpg</img2>
+      <Theme>Khilji</Theme>
+      <Title>1 Jital - Jalal al-Din Firuz</Title>
+      <Features>
+        <Count>Sultanate of Delhi</Count>
+        <Year>	689-695 (1290-1296)</Year>
+        <Value>1 Jital (1)</Value>
+        <Currency>Tanka (1206-1526)</Currency>
+        <Composition>Billon</Composition>
+        <Weight>3.46 g</Weight>
+        <Diameter>16 mm</Diameter>
+        <Shape>	Round</Shape>
+        <Orientation>-</Orientation>
+      </Features>
+      <Market>150 Rupees</Market>
+      <References>#d7</References>
+      <Obverse>
+          Al-Sultan [ala']/zam Jalal aldu/niya waldin
+      </Obverse>
+      <Reverse>
+            In a square: Shah Firuz (In Persian)
+            Around: Sri Sultan Jalaludi (In Nagari)
+      </Reverse>
+      <Edge>Smooth</Edge>
+    </Coin>
+    
+
+    <Coin>
+      <img1>DSPics\d61.jpg</img1>
+      <img2>DSPics\d62.jpg</img2>
+      <Theme>None</Theme>
+      <Title>2 Gani - Ala al din Mohammed II Khilji</Title>
+      <Features>
+        <Count>Sultanate of Delhi</Count>
+        <Year>1296-1316</Year>
+        <Value>2 Gani (1/24)</Value>
+        <Currency>Tanka (1206-1526)</Currency>
+        <Composition>Billon</Composition>
+        <Weight>3.46 g</Weight>
+        <Diameter>	16 mm</Diameter>
+        <Shape>	Round</Shape>
+        <Orientation>-</Orientation>
+      </Features>
+      <Market>100 Rupees</Market>
+      <References>#d6</References>
+      <Obverse>
+          Sultan name in Persian in a double ring with Sultan name in Nagari around
+
+          Translation:
+          Within circle: Shah Muhammad
+          Legend in Devnagari, outside circle (mostly off flan): Sri Sultan Alavadin (Alauddin)
+      </Obverse>
+      <Reverse>
+        Legend in Persian
+
+        Translation: Al-sultan al-azam ala' al-dunya wa'l din
+      </Reverse>
+      <Edge>Plain</Edge>
+    </Coin>
+    <Coin>
+      <img1>DSPics\d51.jpg</img1>
+      <img2>DSPics\d52.jpg</img2>
+      <Theme>None</Theme>
+      <Title>4 Gani - Qutb al-din Mubarak Khilji</Title>
+      <Features>
+        <Count>Sultanate of Delhi</Count>
+        <Year>	715-721 (1316-1321)</Year>
+        <Value>	1 Jital (1/50)</Value>
+        <Currency>Tanka (1206-1526)</Currency>
+        <Composition>Billon</Composition>
+        <Weight>3.58 g</Weight>
+        <Diameter>16.10 mm</Diameter>
+        <Shape>	Round</Shape>
+        <Orientation>-</Orientation>
+      </Features>
+      <Market>250 Rupees</Market>
+      <References>#d5</References>
+      <Obverse>-
+      </Obverse>
+      <Reverse>
+        Last number of the date is a 9 so the date is 719
+
+        Lettering: ۹
+      </Reverse>
+      <Edge>Plain</Edge>
+    </Coin>
+    
+    <Coin>
+        <img1>DSPics\d11.jpg</img1>
+        <img2>DSPics\d12.jpg</img2>
+        <Theme>Tuglaq</Theme>
+        <Title>1 Tanka - Muhammad bin Tughluq</Title>
+        <Features>
+        	
+            <Count>	Sultanate of Delhi</Count>
+            <Year>	1325-1351</Year>
+            <Value>	1 Tanka (1)</Value>
+            <Currency>Tanka (1206-1526)</Currency>
+            <Composition>	Billon</Composition>
+            <Weight>	9.28 g</Weight>
+            <Diameter>19.4 mm</Diameter>
+            <Shape>Round</Shape>
+            <Orientation>-</Orientation>
+
+        </Features>
+        <Market>250 Rupees</Market>
+        <References>#d1</References>
+        <Obverse>
+            Engraver: Frappe Dauladabad
+        </Obverse>
+        <Reverse>
+            -
+      </Reverse>
+        <Edge>
+           -
+        </Edge>
+    </Coin>
+
+    <Coin>
+      <img1>DSPics\d22.jpg</img1>
+      <img2>DSPics\d21.jpg</img2>
+      <Theme>None</Theme>
+      <Title>6 Gani - Muhammad bin Tughluq</Title>
+      <Features>
+        <Count>Sultanate of Delhi</Count>
+        <Year>	725-752</Year>
+        <Value>6 Gani (6)</Value>
+        <Currency>Tanka (1206-1526)</Currency>
+        <Composition>Billon</Composition>
+        <Weight>3.53 g</Weight>
+        <Diameter></Diameter>
+        <Shape>	Round</Shape>
+        <Orientation>15.10 mm</Orientation>
+      </Features>
+      <Market>600 Rupees</Market>
+      <References>#d2</References>
+      <Obverse>
+            Al-raji rahmat allah al-karim
+      </Obverse>
+      <Reverse>
+            [AH Date written in words]
+
+            muhammad bin tughluq, sanah seb' wa'ishrin wa seb'mi'at
+      </Reverse>
+      <Edge>-</Edge>
+    </Coin>
+
+    <Coin>
+      <img1>DSPics\d32.jpg</img1>
+      <img2>DSPics\d31.jpg</img2>
+      <Theme>Lodi</Theme>
+      <Title>1 Tanka - Sikkander Lodi(Small Flan)</Title>
+      <Features>
+        <Count>Sultanate of Delhi</Count>
+        <Year>	814-923 (622-1517)</Year>
+        <Value>	1 Tanka (1)</Value>
+        <Currency>Tanka (1206-1526)</Currency>
+        <Composition>Billon</Composition>
+        <Weight>9.1 g</Weight>
+        <Diameter>17 mm</Diameter>
+        <Shape>	Round</Shape>
+        <Orientation>-</Orientation>
+      </Features>
+      <Market>300</Market>
+      <References>#d3</References>
+      <Obverse>
+       Lettering:٩۱۱
+      </Obverse>
+      <Reverse>
+        -
+      </Reverse>
+      <Edge>-</Edge>
+    </Coin>
+
+    <Coin>
+      <img1>DSPics\d42.jpg</img1>
+      <img2>DSPics\d41.jpg</img2>
+      <Theme>None</Theme>
+      <Title>1 Tanka - Sikkander Lodi</Title>
+      <Features>
+        <Count>Sultanate of Delhi</Count>
+        <Year>	814-923 (622-1517)</Year>
+        <Value>	1 Tanka (1)</Value>
+        <Currency>Tanka (1206-1526)</Currency>
+        <Composition>Billon</Composition>
+        <Weight>9.1 g</Weight>
+        <Diameter>19 mm</Diameter>
+        <Shape>	Round</Shape>
+        <Orientation>-</Orientation>
+      </Features>
+      <Market>300</Market>
+      <References>#d4</References>
+      <Obverse>
+       Lettering:٩۱۷
+      </Obverse>
+      <Reverse>
+        -
+      </Reverse>
+      <Edge>-</Edge>
+    </Coin>
+    
+
+    
+    <!--
+    <Coin>
+      <img1>DSPics\d1.jpg</img1>
+      <img2>DSPics\d2.jpg</img2>
+      <Theme>None</Theme>
+      <Title></Title>
+      <Features>
+        <Count>Sultanate of Delhi</Count>
+        <Year></Year>
+        <Value></Value>
+        <Currency></Currency>
+        <Composition>Billon</Composition>
+        <Weight></Weight>
+        <Diameter></Diameter>
+        <Shape>	Round</Shape>
+        <Orientation></Orientation>
+      </Features>
+      <Market></Market>
+      <References>#d</References>
+      <Obverse>
+
+      </Obverse>
+      <Reverse>
+
+      </Reverse>
+      <Edge>-</Edge>
+    </Coin>
+
+
+
+
+  -->
+</Delhi>
