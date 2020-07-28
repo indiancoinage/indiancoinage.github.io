@@ -2,39 +2,56 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="BIdesign.css">
+    <link rel="stylesheet" href="bootstrap-3.3.7/css/bootstrap.min.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Indian Coinage</title>
 </head>
 <body id = "b">
-    <div class = "heading">
-        <div class="center">
-            <p class = "mainh" >Indian Coinage</p>
+    <div class="navbar navbar-default navcss navbar-fixed-top " style="background-color: powderblue;">
+        <div class="navbar-header">
+            <a class="h1" href="index.html" style="margin-right: 2cm; text-decoration: none; color:blue; margin-left: 20px; font-size: 40px; font-weight: bold;">Indian Coinage</a>
+
+            <button type="button" class="navbar-toggle" data-target="#targetClass" data-toggle="collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div class="navbar-collapse collapse" id="targetClass">
+            <ul class="nav navbar-nav">
+                <li style="font-size: 20px;"> <a href="index.html">Home</a></li>
+                <li style="font-size: 20px;"> <a href="news.html">News</a></li>
+               
+                
+                
+            </ul>
+
+            <ul class="nav navbar-nav navbar-right">
+                <li  class=" active" style="font-size: 20px; margin-right: 20px;" > <a href="about.html">About</a></li>
+                
+            </ul>
         </div>
         
+    </div>
+    <div style="margin-top: 50px;"></div>
+    <div class="jumbotron"  >
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12" >
+                    <div class="intro" style="color: white;">
+                        <h1>Current News</h1>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <ul>
+        <li>All exhibitions have been cancelled in India cue to COVID outbreak.</li>
         
-    </div>
-    <div>
-        <ul class="nav">
-            <li class ="navli"><a href="index.html">Home</a></li>
-            <li class ="navli"><a href="news.html">News</a></li>
-            <li class ="navli"><a href="contact.html">Contact</a></li>
-            <li style="float:right" class ="navli"><a class="active" href="about.html">About</a></li>
-          </ul>
-    </div>
-    <div class="intro">
-        <p style="
-        margin: 0cm;
-        -webkit-text-fill-color: white;
-        font-size:35px;
-        font-family:Brush Script MT;
-        ">Current News</p>
-            
-        <ul>
-            <li>All exhibitions have been cancelled in India cue to COVID outbreak.</li>
-            
-        </ul>
-        
-    </div>
+    </ul>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="bootstrap-3.3.7/js/bootstrap.min.js"></script>
 </body>
 </html>

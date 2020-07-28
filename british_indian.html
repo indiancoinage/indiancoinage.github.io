@@ -1,40 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="bootstrap-3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="BIdesign.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Indian Coinage</title>
 </head>
-<body id = "b">
-    <div class = "heading">
+<body>
+    <div class="navbar navbar-default  navbar-fixed-top" style="background-color: powderblue;">
+        <div class="navbar-header">
+            <a class="h1" href="index.html" style="margin-right: 2cm; text-decoration: none; color:blue; margin-left: 20px; font-size: 40px; font-weight: bold;">Indian Coinage</a>
+
+            <button type="button" class="navbar-toggle" data-target="#targetClass" data-toggle="collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div class="navbar-collapse collapse" id="targetClass">
+            <ul class="nav navbar-nav">
+                <li style="font-size: 20px;"> <a href="index.html">Home</a></li>
+                <li style="font-size: 20px;"> <a href="news.html">News</a></li>
+                
+                
+                
+            </ul>
+
+            <ul class="nav navbar-nav navbar-right">
+                <li  class=" active" style="font-size: 20px; margin-right: 20px;" > <a href="about.html">About</a></li>
+                
+            </ul>
+        </div>
         
-        <p class = "mainh" >Indian Coinage</p>
     </div>
+    <div style="margin-top: 50px;"></div>
+    <div class="jumbotron"  >
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    
+                    <div class="intro" style="color: white;">
+                        <h1 >Introduction</h1>
+                        <p id = "introduction"></p>
+                        <p id = "total" class="lead"></p>    
+                    </div>
+                       
+                </div>
+            </div>
+        </div>
+    </div>
+      
+
     
-    <div>
-        <ul class="nav">
-            <li class ="navli"><a href="index.html">Home</a></li>
-            <li class ="navli"><a href="news.html">News</a></li>
-            <li class ="navli"><a href="contact.html">Contact</a></li>
-            <li style="float:right" class ="navli"><a class="active" href="about.html">About</a></li>
-          </ul>
-    </div>
-
-    <div class="intro">
-        <p style="
-        margin: 0cm;
-        -webkit-text-fill-color: white;
-        font-size:35px;
-        font-family:Brush Script MT;
-        ">Introduction</p>
-        <p id = "introduction"></p>
-        <p id = "total"></p>    
-    </div>
-    <div class="page" style="border:solid; margin-top: 0.2cm ; border-radius: 30px  ;" >
+    <div class="page" >
         <ul class="pageList">
-            <li style="float: left;">Pages</li>
-
+            <li style="float: left;">Pages:</li>
         </ul>
     </div>
     <div class = 'links'>
@@ -44,6 +65,7 @@
         </ul>
 
     </div>
+    
     
         
         
@@ -55,9 +77,9 @@
         </ul>
     </div>
 
-    <div class="page" style="border:solid; margin-top: 0.2cm ; border-radius: 30px  ;" >
+    <div class="page" style=" margin-top: 0.2cm  ;" >
         <ul class="pageList">
-            <li style="float: left;"> Pages</li>
+            <li style="float: left;"> Pages:</li>
 
         </ul>
     </div>
@@ -87,9 +109,21 @@ function newLi(){
     return document.createElement('li');
 }
 function myFunction(xml) {
+    
+    
     localStorage.setItem('currentPage',cur);
     var xmlDoc = xml.responseXML;
     var x,y,z,a,b;
+    var jumbotron=document.getElementsByClassName('jumbotron');
+    var page = Number(localStorage.getItem('start'));
+    var name = xmlDoc.getElementsByTagName('Name')[0].childNodes[0]; 
+    var h1=document.getElementsByTagName('h1');
+    var p =document.getElementsByTagName('p');
+    if(page>11){
+        h1[0].innerHTML=name.nodeValue;
+        p[0].style.display='none';
+        p[1].style.display='none';
+    }
     var k= xmlDoc.getElementsByTagName('Coin');   
     var intro = xmlDoc.getElementsByTagName('Introduction')[0].childNodes[0];   
     document.getElementById('introduction').innerHTML=intro.nodeValue;
@@ -120,10 +154,16 @@ function myFunction(xml) {
         var startt = Number(localStorage.getItem('start'))/12;
         if(startt==i){
             
-            linkPage.style.color='white';
-            linkPage1.style.color='white';
-            linkPage.style.backgroundColor='black';
-            linkPage1.style.backgroundColor='black';
+            linkPage.style.color='black';
+            linkPage1.style.color='black';
+            linkPage.style.backgroundColor='powderblue';
+            
+           
+            linkPage.style.borderRadius='30px';
+            linkPage1.style.backgroundColor='powderblue';
+            
+            
+            linkPage1.style.borderRadius='30px';
         }
 
 
@@ -186,6 +226,7 @@ function myFunction(xml) {
     else{
         endPoint=startPoint+12;
     }
+    
     for(var i=startPoint;i<endPoint;i++){
         var div1 = document.createElement('div');
         var div2 = document.createElement('div');
@@ -214,7 +255,6 @@ function myFunction(xml) {
         div1.style.marginTop="0.5cm";
         div1.style.padding="0cm";
         div1.style.position="relative";
-        div1.style.border='solid';
         div1.style.height="auto";
         if(screen.width<600){
             div1.style.width="100%";
@@ -225,7 +265,7 @@ function myFunction(xml) {
             div1.style.overflow='hidden';
         }
         
-        div1.style.backgroundColor="black";
+        div1.style.backgroundColor="powderblue";
         div1.style.borderRadius="30px";
         div1.style.cursor='pointer';
         
@@ -237,7 +277,7 @@ function myFunction(xml) {
         img1.style.width="123px";
         img1.style.marginLeft="0.5cm";
         img1.style.borderRadius="50%";
-        img1.style.marginTop='6px';
+        img1.style.marginTop='2px';
 
         img2.style.display="inline-block";
         img2.style.marginLeft="0.5cm";
@@ -245,18 +285,18 @@ function myFunction(xml) {
         img2.style.height="123px";
         img2.style.width="123px";
         img2.style.borderRadius="50%";
-        img2.style.marginTop='6px';
+        img2.style.marginTop='2px';
 
         div2.style.padding="0cm";
         div2.style.display="inline-block";
         div2.style.marginLeft="1cm";
-        div2.style.marginTop="-3px";
+        
         div2.style.position="absolute";
         div2.style.height="150px";
-        div2.style.width="38%";
+        div2.style.width="35%";
         //div2.style.border='solid';
         div2.style.overflowY='Hidden';
-        div2.style.color="white";
+        div2.style.color="black";
         div1.style.textAlign='left';
 
         var ul = document.getElementById('myList');
@@ -277,8 +317,13 @@ function myFunction(xml) {
         them = xmlDoc.getElementsByTagName('Theme')[i].childNodes[0].nodeValue;
         par.innerHTML = x.nodeValue;
         par1.innerHTML = y.nodeValue;
+
         par2.innerHTML = z.nodeValue;
         par3.innerHTML=xmlDoc.getElementsByTagName('Count')[i].childNodes[0].nodeValue;
+        par3.style.margin='2px';
+        par.style.margin='2px';
+        par1.style.margin='2px';
+        par2.style.margin='2px';
         img1.src=a.nodeValue;
         img2.src=b.nodeValue;
         //console.log(sceen.width);
@@ -343,9 +388,12 @@ function myFunction(xml) {
 
 
     
-
+    
     </script>
-   
+  
+
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="bootstrap-3.3.7/js/bootstrap.min.js"></script>
     
         
 </body>

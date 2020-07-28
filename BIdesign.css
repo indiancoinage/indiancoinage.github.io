@@ -1,42 +1,11 @@
-body {background-color: coral;}
-div.heading {
-  padding-right: -10px;
- position: relative;
-  width: 100%;
-  height: 120px;
-  background-color: rgb(135, 41, 223);
-  border-style: solid solid none solid;
-  border-top-right-radius:20px ;
-  border-top-left-radius:20px ;
-  text-align: center;
-  
-}
 
 
-p.mainh{
-  
-  margin-top: 0.5cm;
-  display: block;
-  color: aliceblue;
-  font-size:300%;
-  
-  font-family:'Times New Roman', Times, serif;
-  
-}
+
+
   
 
   
-  ul.nav {
-    width: 100%;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color:rgba(0, 0, 0, 0.8);
-    border-style: none solid solid solid;
-    border-bottom-right-radius:20px ;
-    border-bottom-left-radius:20px ;
-  }
+  
   ul.pageList {
     width: 100%;
     list-style-type: none;
@@ -66,49 +35,47 @@ p.mainh{
     background-color: #4CAF50;
   }
   div.intro {
-    color: white; 
+    color: blue; 
     margin-top: 0.5cm;
-    padding : 0.1cm;  
-   
+    padding : 0.5cm;  
+    
     height: auto;
     width: 100%;
-    border-radius: 30px;
-    background-color:rgba(0, 0, 0, 0.8);
+   
   }  
 
   .fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 20px;
-    text-align: center;
     text-decoration: none;
-    border-radius: 20px;
-    margin-left: 20px;
+    font-size: 70px;
   }
-  .fa-facebook {
-    background: #3B5998;
-    color: white;
-  }  
-
   
+  .fa-facebook{
+    background-color:  white;
+    color:black;
+  }
+
   .fa-instagram {
-    background:  #125688;
-    color: white;
+    
+    
+    background-color:  white;
+    color:black;
   }  
 
   
   
   .fa-linkedin {
-    background: #007bb5;
-    color: white;
+    
+    background-color:  white;
+    color:black;
   }
 
   div.links{
     margin-top: 0.5cm;
-    border :solid;
+    margin: 0.5cm;
     border-radius: 30px;
     padding-left: 20px;
-    height: 150px;
+    height: 160px;
+    background-color: powderblue;
     
   }
   ul.linkList{
@@ -119,4 +86,52 @@ p.mainh{
    
   }
  
+  .main-container{
+    max-height: 125px;
+    
+    height: max-content;
+    background-color: powderblue;
+    display: inline-block;
+  }
+
+  .img-1{
+    display: inline-block;
+    height: 125px;
+    width: 125px;
+    background-color: red;
+    
+  }
+  .img-2{
+    display: inline-block;
+    height: 125px;
+    width: 125px;
+    background-color: blue;
+   
+  }
+  .text{
+    display: inline-block;
+    height: 125px;
+    width: 240px;
+    background-color: yellow;
+  }
+  .jumbotron{
+    background-image: url(jumbotron.jpg);
+    background-size: cover;
+    color: white;
+  }
   
+  .contact-render{
+    width: auto;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: powderblue;
+    margin: 10px;
+  }
+
+  .about{
+    display: inline-block;
+    padding: 10px;
+    
+    
+    
+  }
