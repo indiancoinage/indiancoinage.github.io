@@ -53,7 +53,7 @@
       
 
     
-    <div class="page" >
+    <div class="page"  style="width: 90%;">
         <ul class="pageList">
             <li style="float: left;">Pages:</li>
         </ul>
@@ -61,9 +61,7 @@
     <div class = 'links'>
         <h3 style="margin:0px">Shortcuts</h3>
         <ul class = 'linkList'>
-            
         </ul>
-
     </div>
     
     
@@ -77,10 +75,9 @@
         </ul>
     </div>
 
-    <div class="page" style=" margin-top: 0.2cm  ;" >
+    <div class="page" style=" margin-top: 0.2cm; width: 90%;" >
         <ul class="pageList">
             <li style="float: left;"> Pages:</li>
-
         </ul>
     </div>
     
@@ -140,8 +137,9 @@ function myFunction(xml) {
         var linkPage = document.createElement('a');
         var linkPage1 = document.createElement('a');
         var noPage1 = document.createElement('li')
-        listPage[1].appendChild(noPage1);
+        
         listPage[0].appendChild(noPage);
+        listPage[1].appendChild(noPage1);
         noPage.style.float='left';
         noPage1.style.float='left';
         linkPage.style.color='blue';
@@ -362,30 +360,6 @@ function myFunction(xml) {
         });
     }   
 }
-
-
-
-/*document.addEventListener('DOMContentLoaded',()=>{
-    let url = "britishIndian.xml";
-    fetch(url)
-    .then(response=>response.text())
-    .then(data=>{
-        let parser = new DOMParser();
-    let xml = parser.parseFromString(data,"application/xml");
-    document.getElementsByClassName('just')[0].textContent=data;
-    myFunction(xml);
-    });
-    
-});
-    function myFunction(xx){
-        let a=xx.getElementsByTagName('Coin');
-        
-        let m=document.getElementsByClassName('just');
-        
-        m[0].innerHTML=a[0].childNodes[0].nodeValue;
-    }*/
-
-
 
     
     
