@@ -63,17 +63,18 @@
         <ul class = 'linkList'>
         </ul>
     </div>
-    
-    
-        
-        
-        
 
-    <div style="text-align: center; padding: 0px; position: relative; width: 100%;">
-        <ul id="myList", style="list-style-type: none; table-layout: fixed; display: inline-block;  padding: 0%;">
+    <div style="text-align: center;">
         
-        </ul>
+            <ul id="myList", style="list-style-type: none; table-layout: fixed; display: inline-block;  padding: 0%; ">
+        
+            </ul>
+       
+        
     </div>
+    
+        
+    
 
     <div class="page" style=" margin-top: 0.2cm; width: 90%;" >
         <ul class="pageList">
@@ -82,7 +83,6 @@
     </div>
     
     <script>        
-    
     
     var cur = localStorage.getItem('coinPage');
     var start = localStorage.getItem('start');
@@ -177,7 +177,7 @@ function myFunction(xml) {
             localStorage.setItem('start',a);
             localStorage.setItem('scrollPosition',0);
 
-            window.open("british_indian.html","_self");
+            window.open("second_page.html","_self");
         });
 
         linkPage1.addEventListener('click',function(){
@@ -185,7 +185,7 @@ function myFunction(xml) {
             var  a= (Number(this.innerHTML)-1)*12;
              localStorage.setItem('start',a);
              localStorage.setItem('scrollPosition',0);
-             window.open("british_indian.html","_self");
+             window.open("second_page.html","_self");
          });
         noPage.appendChild(linkPage); 
         noPage1.appendChild(linkPage1);        
@@ -209,7 +209,7 @@ function myFunction(xml) {
            a.addEventListener('click',function(){
                 localStorage.setItem('start',this.id);
                 localStorage.setItem('scrollPosition',0);
-                window.open("british_indian.html","_self");
+                window.open("second_page.html","_self");
            });
            
        }
@@ -254,6 +254,7 @@ function myFunction(xml) {
         div1.style.padding="0cm";
         div1.style.position="relative";
         div1.style.height="auto";
+        
         if(screen.width<600){
             div1.style.width="100%";
             div1.style.overflowX='scroll';
@@ -287,11 +288,11 @@ function myFunction(xml) {
 
         div2.style.padding="0cm";
         div2.style.display="inline-block";
-        div2.style.marginLeft="1cm";
         
+        div2.style.marginTop="5px";
         div2.style.position="absolute";
         div2.style.height="150px";
-        div2.style.width="35%";
+        div2.style.width="40%";
         //div2.style.border='solid';
         div2.style.overflowY='Hidden';
         div2.style.color="black";
@@ -313,11 +314,27 @@ function myFunction(xml) {
         a = xmlDoc.getElementsByTagName('img1')[i].childNodes[0];
         b = xmlDoc.getElementsByTagName('img2')[i].childNodes[0];
         them = xmlDoc.getElementsByTagName('Theme')[i].childNodes[0].nodeValue;
-        par.innerHTML = x.nodeValue;
-        par1.innerHTML = y.nodeValue;
 
-        par2.innerHTML = z.nodeValue;
-        par3.innerHTML=xmlDoc.getElementsByTagName('Count')[i].childNodes[0].nodeValue;
+        uld=document.createElement('ul');
+        lid1=document.createElement('li');
+        lid1.innerHTML=x.nodeValue;
+        uld.appendChild(lid1);
+        lid2=document.createElement('li');
+        lid2.innerHTML=xmlDoc.getElementsByTagName('Count')[i].childNodes[0].nodeValue;
+        lid3=document.createElement('li');
+        lid3.innerHTML=z.nodeValue;
+        lid4=document.createElement('li');
+        lid4.innerHTML=y.nodeValue;
+        uld.appendChild(lid1);
+        uld.appendChild(lid2);
+        uld.appendChild(lid3);
+        uld.appendChild(lid4);
+
+        par.innerHTML ="->"+ x.nodeValue;
+        par1.innerHTML ="->"+ y.nodeValue;
+
+        par2.innerHTML = "->"+z.nodeValue;
+        par3.innerHTML="->"+xmlDoc.getElementsByTagName('Count')[i].childNodes[0].nodeValue;
         par3.style.margin='2px';
         par.style.margin='2px';
         par1.style.margin='2px';
@@ -334,10 +351,10 @@ function myFunction(xml) {
         div1.appendChild(img1);
         div1.appendChild(img2);
         div1.appendChild(div2);
-        div2.appendChild(par);
-        div2.appendChild(par3);
-        div2.appendChild(par1);
-        div2.appendChild(par2);
+        div2.appendChild(uld);
+        // div2.appendChild(par3);
+        // div2.appendChild(par1);
+        // div2.appendChild(par2);
         if(them.localeCompare('None') != 0){
             
            
