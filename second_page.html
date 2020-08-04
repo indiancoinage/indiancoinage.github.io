@@ -226,6 +226,7 @@ function myFunction(xml) {
     }
     
     for(var i=startPoint;i<endPoint;i++){
+        var main_link = document.createElement('a');
         var div1 = document.createElement('div');
         var div2 = document.createElement('div');
         var img1 = document.createElement('img');
@@ -367,10 +368,11 @@ function myFunction(xml) {
             anchor1.appendChild(theme);
             ul.appendChild(newLi().appendChild(anchor1));
         }
-        ul.appendChild(newLi().appendChild(div1));
-        div1.id = xmlDoc.getElementsByTagName('References')[i].childNodes[0].nodeValue;
+        main_link.appendChild(div1);
+        ul.appendChild(newLi().appendChild(main_link));
+        main_link.id = xmlDoc.getElementsByTagName('References')[i].childNodes[0].nodeValue;
         //console.log(document.body.scrollTop);
-        div1.addEventListener('click',function(){
+        main_link.addEventListener('click',function(){
             localStorage.setItem('reference',this.id);
             localStorage.setItem('scrollPosition',document.documentElement.scrollTop);
             window.open("final.html","_self");
