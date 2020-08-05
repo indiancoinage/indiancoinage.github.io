@@ -414,7 +414,7 @@
     <Coin>
       <img1>IRPics\r81.jpg</img1>
       <img2>IRPics\r82.jpg</img2>
-      <Theme>None</Theme>
+      <Theme>2 Paise</Theme>
       <Title>2 Naye Paise</Title>
       <Features>
         <Count>India</Count>
@@ -451,7 +451,7 @@
     <Coin>
       <img1>IRPics\r91.jpg</img1>
       <img2>IRPics\r92.jpg</img2>
-      <Theme>2 Paise</Theme>
+      <Theme>None</Theme>
       <Title>2 Paise</Title>
       <Features>
         <Count>India</Count>

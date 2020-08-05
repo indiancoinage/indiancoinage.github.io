@@ -98,7 +98,7 @@ xhttp.onreadystatechange = function() {
     var scroll=Number(localStorage.getItem('scrollPosition'));
     if(scroll==-1){
         var element = document.getElementById(identity);
-        document.documentElement.scrollTop=element.offsetTop;
+        document.documentElement.scrollTop=-20+element.offsetTop;
         localStorage.setItem('scrollPosition',0)
     }
     else{
