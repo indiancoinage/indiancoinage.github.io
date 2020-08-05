@@ -93,21 +93,35 @@ xhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
         myFunction(this);
     }
+    var scrollThrId = localStorage.getItem('scrollPositionThroughid');
+    var identity = '#'+scrollThrId;
+    var scroll=Number(localStorage.getItem('scrollPosition'));
+    if(scroll==-1){
+        var element = document.getElementById(identity);
+        document.documentElement.scrollTop=element.offsetTop;
+        localStorage.setItem('scrollPosition',0)
+    }
+    else{
+        document.documentElement.scrollTop=scroll;
+    }
 
-    document.documentElement.scrollTop=localStorage.getItem('scrollPosition');
-    //console.log(scroll);
+    
+
+   
+   
+    // let scrollP=localStorage.getItem('scrollPositionThroughElement');
+    // var currElement=document.getElementById('scrollP');
+    // console.log(currElement.offsetTop);
+    
+    //console.log(element.id);
 };
 xhttp.open("GET", cur, true);
 xhttp.send();
 
 
 
-function newLi(){
-    return document.createElement('li');
-}
+
 function myFunction(xml) {
-    
-    
     localStorage.setItem('currentPage',cur);
     var xmlDoc = xml.responseXML;
     var x,y,z,a,b;
@@ -203,12 +217,13 @@ function myFunction(xml) {
            var ul = document.getElementsByClassName('linkList');
            ul[0].appendChild(li);
            var page = Math.floor(i/12);
-           
-           a.id= page*12;
+           a.className = xmlDoc.getElementsByTagName('References')[i].childNodes[0].nodeValue;
+           a.id=page*12;
            
            a.addEventListener('click',function(){
                 localStorage.setItem('start',this.id);
-                localStorage.setItem('scrollPosition',0);
+                localStorage.setItem('scrollPosition',-1);
+                localStorage.setItem('scrollPositionThroughid',this.className);
                 window.open("second_page.html","_self");
            });
            
@@ -227,6 +242,8 @@ function myFunction(xml) {
     
     for(var i=startPoint;i<endPoint;i++){
         var main_link = document.createElement('a');
+        main_link.className='coins';
+        var list = document.createElement('li');
         var div1 = document.createElement('div');
         var div2 = document.createElement('div');
         var img1 = document.createElement('img');
@@ -357,19 +374,15 @@ function myFunction(xml) {
         // div2.appendChild(par1);
         // div2.appendChild(par2);
         if(them.localeCompare('None') != 0){
-            
-           
-          
-            
-            
-            
             theme.innerHTML=them;
-            anchor1.id=them;
+            anchor1.id='#'+xmlDoc.getElementsByTagName('References')[i].childNodes[0].nodeValue;
+            //console.log(anchor1.id);
+            anchor1.className='titles';
             anchor1.appendChild(theme);
-            ul.appendChild(newLi().appendChild(anchor1));
+            ul.appendChild(list.appendChild(anchor1));
         }
         main_link.appendChild(div1);
-        ul.appendChild(newLi().appendChild(main_link));
+        ul.appendChild(list.appendChild(main_link));
         main_link.id = xmlDoc.getElementsByTagName('References')[i].childNodes[0].nodeValue;
         //console.log(document.body.scrollTop);
         main_link.addEventListener('click',function(){
