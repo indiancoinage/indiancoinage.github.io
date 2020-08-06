@@ -50,7 +50,9 @@
             </div>
         </div>
     </div>
-      
+
+    
+    
 
     
     <div class="page"  style="width: 90%;">
@@ -64,7 +66,7 @@
         </ul>
     </div>
 
-    <div class="container">
+    <!-- <div class="container">
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-4 col-md-offset-4">
                 <div style="text-align: center;">
@@ -78,8 +80,17 @@
             </div>
         </div>
         
-    </div>
+    </div> -->
 
+
+    <div style="text-align: center;">
+        
+        <ul id="myList", style="list-style-type: none; table-layout: fixed; display: inline-block;  padding: 0%; ">
+    
+        </ul>
+   
+    
+    </div>
     
     
         
@@ -252,8 +263,53 @@ function myFunction(xml) {
     for(var i=startPoint;i<endPoint;i++){
         var main_link = document.createElement('a');
         main_link.className='coins';
+
+    //  <div style="text-align: center;">
+    //     <div style="background-color: powderblue; text-align: center; width: auto; display: inline-block; padding: 20px; margin: 10px;">
+    //         <div style="height: 120px; width: 120px; background-color: red; display: inline-block;"></div>
+    //         <div style="height: 120px; width: 120px; background-color: blue; display: inline-block;"></div>
+    //         <div style="height: 120px; width: 200px; background-color: green; display: inline-block;"></div>
+    //     </div>
+    // </div>
+        var cont = document.createElement('div');
+        var outer = document.createElement('div');
+        var img1div = document.createElement('div');
+        var img2div = document.createElement('div');
+        var infodiv = document.createElement('div');
+
+        cont.style.textAlign='center';
+        cont.appendChild(outer);
+        cont.style.cursor='pointer';
+        outer.style.backgroundColor='powderblue';
+        outer.style.textAlign='center';
+        outer.style.width='auto';
+        outer.style.display='inline-block';
+        outer.style.padding='10px';
+        outer.style.margin='5px';
+        outer.style.borderRadius='30px';
+        outer.appendChild(img1div);
+        outer.appendChild(img2div);
+        outer.appendChild(infodiv);
+        img1div.style.height='125px';
+        img1div.style.width='125px';
+        //img1div.style.backgroundColor='red';
+        img1div.style.display='inline-block';
+
+        img2div.style.height='125px';
+        img2div.style.width='125px';
+        //img2div.style.backgroundColor='blue';
+        img2div.style.display='inline-block';
+
+        infodiv.style.height='125px';
+        infodiv.style.width='200px';
+        //infodiv.style.backgroundColor='green';
+        infodiv.style.display='inline-block';
+        infodiv.style.color='black';
+        
+
+
         var list = document.createElement('li');
-        var div1 = document.createElement('div');
+        //var div1 = document.createElement('div');
         var div2 = document.createElement('div');
         var img1 = document.createElement('img');
         var img2 = document.createElement('img');
@@ -277,55 +333,50 @@ function myFunction(xml) {
         theme.style.marginTop='2cm';
         theme.style.textDecoration='underline';
 
-        div1.style.marginTop="0.5cm";
-        div1.style.padding="0cm";
-        div1.style.position="relative";
-        div1.style.height="auto";
+        // div1.style.marginTop="0.5cm";
+        // div1.style.padding="0cm";
+        // div1.style.position="relative";
+        // div1.style.height="125px";
         
-        if(screen.width<600){
-            div1.style.width="100%";
-            div1.style.overflowX='scroll';
-            div1.style.overflowY='hidden';
-        }
-        else{
-            div1.style.width="500px";
-            div1.style.overflow='hidden';
-        }
-        //div1.style.width="500px";
+        // if(screen.width<600){
+        //     div1.style.width="100%";
+        //     div1.style.overflowX='scroll';
+        //     div1.style.overflowY='hidden';
+        // }
+        // else{
+        //     div1.style.width="500px";
+        //     div1.style.overflow='hidden';
+        // }
+        // div1.style.width="auto";
         
-        div1.style.backgroundColor="powderblue";
-        div1.style.borderRadius="30px";
-        div1.style.cursor='pointer';
+        // div1.style.backgroundColor="powderblue";
+        // div1.style.borderRadius="30px";
+        // div1.style.cursor='pointer';
         
         
 
-        img1.style.display="inline-block";
-        img1.style.float="left";
+        
+        
         img1.style.height="123px";
         img1.style.width="123px";
-        img1.style.marginLeft="0.5cm";
+        
         img1.style.borderRadius="50%";
-        img1.style.marginTop='2px';
+        
 
-        img2.style.display="inline-block";
-        img2.style.marginLeft="0.5cm";
-        img2.style.float="left";
+        
+        
         img2.style.height="123px";
         img2.style.width="123px";
         img2.style.borderRadius="50%";
-        img2.style.marginTop='2px';
-
-        div2.style.padding="0cm";
-        div2.style.display="inline-block";
+       
+        img1.style.display='block';
+        img2.style.display='block';
         
-        div2.style.marginTop="5px";
-        div2.style.position="absolute";
-        div2.style.height="150px";
-        div2.style.width="40%";
+        
         //div2.style.border='solid';
-        div2.style.overflowY='Hidden';
+        
         div2.style.color="black";
-        div1.style.textAlign='left';
+        
 
         var ul = document.getElementById('myList');
 
@@ -346,8 +397,10 @@ function myFunction(xml) {
 
         uld=document.createElement('ul');
         lid1=document.createElement('li');
+
+        uld.style.textAlign='left';
+        uld.style.display='block';
         lid1.innerHTML=x.nodeValue;
-        uld.appendChild(lid1);
         lid2=document.createElement('li');
         lid2.innerHTML=xmlDoc.getElementsByTagName('Count')[i].childNodes[0].nodeValue;
         lid3=document.createElement('li');
@@ -358,7 +411,7 @@ function myFunction(xml) {
         uld.appendChild(lid2);
         uld.appendChild(lid3);
         uld.appendChild(lid4);
-
+        
         par.innerHTML ="->"+ x.nodeValue;
         par1.innerHTML ="->"+ y.nodeValue;
 
@@ -370,20 +423,19 @@ function myFunction(xml) {
         par2.style.margin='2px';
         img1.src=a.nodeValue;
         img2.src=b.nodeValue;
-        //console.log(sceen.width);
         
-      
-        /*div1.appendChild(link);
-        link.appendChild(img1);
-        link.appendChild(img2);
-        link.appendChild(div2);*/
-        div1.appendChild(img1);
-        div1.appendChild(img2);
-        div1.appendChild(div2);
-        div2.appendChild(uld);
-        // div2.appendChild(par3);
-        // div2.appendChild(par1);
-        // div2.appendChild(par2);
+
+        // div1.appendChild(img1);
+        // div1.appendChild(img2);
+        // div1.appendChild(div2);
+
+        img1div.appendChild(img1);
+        img2div.appendChild(img2);
+        
+        infodiv.style.verticalAlign='top';
+        infodiv.appendChild(uld);
+        
+        
         if(them.localeCompare('None') != 0){
             theme.innerHTML=them;
             anchor1.id='#'+xmlDoc.getElementsByTagName('References')[i].childNodes[0].nodeValue;
@@ -392,7 +444,7 @@ function myFunction(xml) {
             anchor1.appendChild(theme);
             ul.appendChild(list.appendChild(anchor1));
         }
-        main_link.appendChild(div1);
+        main_link.appendChild(cont);
         ul.appendChild(list.appendChild(main_link));
         main_link.id = xmlDoc.getElementsByTagName('References')[i].childNodes[0].nodeValue;
         //console.log(document.body.scrollTop);
