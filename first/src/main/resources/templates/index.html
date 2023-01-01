@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="/css/design.css">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indian Coinage</title>
+</head>
+<body>
+
+<div class="navbar navbar-default  navbar-fixed-top" style="background-color: powderblue;">
+    <div class="navbar-header">
+        <a class="h1" href="index.html" style="margin-right: 2cm; text-decoration: none; color:blue; margin-left: 20px; font-size: 40px; font-weight: bold;">Indian Coinage</a>
+        <button type="button" class="navbar-toggle" data-target="#targetClass" data-toggle="collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+    </div>
+    <div class="navbar-collapse collapse" id="targetClass">
+        <ul class="nav navbar-nav">
+            <li style="font-size: 20px;"> <a href="index.html">Home</a></li>
+            <li style="font-size: 20px;"> <a href="news.html">News</a></li>
+
+
+
+        </ul>
+
+        <ul class="nav navbar-nav navbar-right">
+            <li  class=" active" style="font-size: 20px; margin-right: 20px;" > <a href="about.html">About</a></li>
+
+        </ul>
+    </div>
+
+</div>
+
+<div style="margin-top: 50px;"></div>
+<div class="jumbotron"  >
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+
+
+                <div style="text-align: center;">
+                    <div class="mainleft" style="color: white;">
+                        <h1>Thank you for visiting this page!</h1>
+                        <p>India is a country with huge diversity. This can be seen in Indian coins too. I am sharing here
+                            my collection with all information and other things like their market value, rarity, source from
+                            which I get particular coin.
+
+                        </p>
+                        <p>I hope you would like the collection. For any queries feel free to contact and give your valuable
+                            reviews on my collection. </p>
+                    </div >
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+
+    <div class ="row">
+
+        <div class="col-sm-12 col-md-6">
+            <div class = "mainright">
+
+                <ul class= "coinSec">
+                    <li class="coinLi"><a class="coinages" id = 'britishIndia' style=" cursor: pointer;">British-Indian</a></li>
+                    <li class="coinLi"><a class="coinages" id = 'ancientIndia' style=" cursor: pointer;">Ancient-Indian</a></li>
+                    <li class="coinLi"><a class="coinages" id="indianRepublic" style="cursor:pointer">Indian-Republic</a></li>
+                    <li class="coinLi"><a class="coinages" id = 'portugalIndia' style=" cursor: pointer;">Portugal-Indian</a></li>
+                    <li class="coinLi"><a class="coinages" id="dutchIndia"  style="cursor: pointer;">Dutch-Indian</a></li>
+
+                </ul>
+            </div>
+        </div>
+
+        <div class="col-sm-12 col-md-6">
+            <div class = "mainright">
+
+                <ul class= "coinSec">
+
+                    <li class="coinLi"><a class="coinages"id="indianPrincelyStates" style=" cursor: pointer;">Indian-Princely States</a></li>
+                    <li class="coinLi"><a class="coinages" id="indianIslamic" style="  cursor: pointer;">India-Islamic</a></li>
+                    <li class="coinLi"><a class="coinages" id="mughal"  style="cursor: pointer;">Mughal</a></li>
+                    <li class="coinLi"><a class="coinages" id="delhiSultanate"  style=" cursor: pointer">Delhi Sultanate</a></li>
+                    <li class="coinLi"><a class="coinages" id="northenDynasties"  style=" cursor: pointer">Northen-Dynasties</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+
+</div>
+
+
+
+<script>
+        localStorage.setItem('start',0);
+        var bi= document.getElementById('britishIndia');
+        localStorage.setItem('scrollPosition',0);
+        bi.addEventListener('click', function(){
+            localStorage.setItem('coinPage','britishIndian.xml');
+            window.open("second_page.html","_self");
+        });
+
+        var ips= document.getElementById('indianPrincelyStates');
+        localStorage.setItem('scrollPosition',0);
+        ips.addEventListener('click', function(){
+            localStorage.setItem('coinPage','ips.xml');
+            window.open("second_page.html","_self");
+        });
+
+        var ai= document.getElementById('ancientIndia');
+        localStorage.setItem('scrollPosition',0);
+        ai.addEventListener('click', function(){
+            localStorage.setItem('coinPage','ancientIndian.xml');
+            window.open("second_page.html","_self");
+        });
+
+        var pi= document.getElementById('portugalIndia');
+        localStorage.setItem('scrollPosition',0);
+        pi.addEventListener('click', function(){
+            localStorage.setItem('coinPage','portugalIndian.xml');
+            window.open("second_page.html","_self");
+        });
+
+        var isl= document.getElementById('indianIslamic');
+        localStorage.setItem('scrollPosition',0);
+        isl.addEventListener('click', function(){
+            localStorage.setItem('coinPage','indianIslamic.xml');
+            window.open("second_page.html","_self");
+        });
+
+        var mu= document.getElementById('mughal');
+        localStorage.setItem('scrollPosition',0);
+        mu.addEventListener('click', function(){
+            localStorage.setItem('coinPage','mughal.xml');
+            window.open("second_page.html","_self");
+        });
+        var du= document.getElementById('dutchIndia');
+        localStorage.setItem('scrollPosition',0);
+        du.addEventListener('click', function(){
+            localStorage.setItem('coinPage','dutch.xml');
+            window.open("second_page.html","_self");
+        });
+
+        var ri= document.getElementById('indianRepublic');
+        localStorage.setItem('scrollPosition',0);
+        ri.addEventListener('click', function(){
+            localStorage.setItem('coinPage','republic.xml');
+            window.open("second_page.html","_self");
+        });
+
+        var ds= document.getElementById('delhiSultanate');
+        localStorage.setItem('scrollPosition',0);
+        ds.addEventListener('click', function(){
+            localStorage.setItem('coinPage','delhi.xml');
+            window.open("second_page.html","_self");
+        });
+
+        var no= document.getElementById('northenDynasties');
+        localStorage.setItem('scrollPosition',0);
+        no.addEventListener('click', function(){
+            localStorage.setItem('coinPage','northen.xml');
+            window.open("second_page.html","_self");
+        });
+
+
+
+        // var a = document.getElementsByClassName('coinages');
+        // if(screen.width < 600){
+        //     for(var i=0 ;i<a.length;i++){
+        //         a[i].style.width='100%';
+        //     }
+        // }
+        // else{
+        //     for(var i=0 ;i<a.length;i++){
+        //         a[i].style.width='300px';
+        //     }
+        // }
+    </script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="bootstrap-3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>

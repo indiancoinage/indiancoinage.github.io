@@ -1,0 +1,59 @@
+
+
+
+
+
+div.mainleft {
+
+
+
+  margin-top: 0.5cm;
+  padding : 0.5cm;
+  text-align: left;
+  font-size: 20px;
+
+}
+div.mainright {
+
+  text-align: center;
+  margin-top: 0.1cm;
+   text-align: center;
+
+
+
+}
+ul.coinSec {
+  list-style-type: none;
+
+  margin-bottom: 2px;
+  padding: 0;
+  overflow: hidden;
+
+}
+
+
+li.coinLi a {
+
+  border-radius: 30px;
+  -webkit-text-fill-color: black;
+  font-size:35px;
+  font-family:Brush Script MT;
+  margin: 0.5cm;
+
+  background-color:powderblue;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 25px;
+  text-decoration: none;
+}
+
+li.coinLi a:hover {
+  background-color: silver;
+}
+
+.jumbotron{
+  background-image: url(/images/jumbotron.jpg);
+  background-size: cover;
+  color: white;
+}
